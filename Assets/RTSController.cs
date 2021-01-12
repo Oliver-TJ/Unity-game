@@ -8,10 +8,12 @@ public class RTSController : MonoBehaviour
     [SerializeField] private GameObject pathPointer; 
     [SerializeField] private Camera view; 
     private Actions kingMethods; 
+    private Rigidbody2D kingRB;
     // Start is called before the first frame update
     void Start()
     {
         kingMethods = King.GetComponent<Actions>();
+        kingRB = King.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -27,8 +29,10 @@ public class RTSController : MonoBehaviour
             Instantiate(pathPointer, new Vector3(intent.x, intent.y, 0), Quaternion.identity);
             kingMethods.setIntent(intent); 
             Debug.Log($"Mouse button down at {Input.mousePosition}");
+        }
 
-
+        if (Input.GetKey(KeyCode.Space)) {
+            view.transform.Translate(kingRB.position - (Vector2)view.transform.position);
         }
     }
 }

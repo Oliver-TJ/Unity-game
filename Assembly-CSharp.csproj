@@ -61,6 +61,7 @@
      <Compile Include="Assets\Actions.cs" />
      <Compile Include="Assets\AutoDestroy.cs" />
      <Compile Include="Assets\RTSController.cs" />
+     <Compile Include="Assets\camControl.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/Programming/UnityGames/Unity-game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
