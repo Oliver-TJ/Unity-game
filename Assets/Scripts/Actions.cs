@@ -53,10 +53,6 @@ public class Actions : MonoBehaviour
         }
         moveIndex = 0; 
         complete = false; 
-        intention = intent; 
-        foreach (Vector2 v in movements) { 
-            Debug.Log(v);
-        }
-        Debug.Log($"Moving to {intent} from {rb.position}"); 
+        intention = intent;  
     }
 }

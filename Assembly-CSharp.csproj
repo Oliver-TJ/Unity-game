@@ -60,9 +60,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Actions.cs" />
      <Compile Include="Assets\Scripts\AutoDestroy.cs" />
+     <Compile Include="Assets\Scripts\DamageInteraction.cs" />
      <Compile Include="Assets\Scripts\RTSController.cs" />
      <Compile Include="Assets\Scripts\camControl.cs" />
-     <Compile Include="Assets\trajectory.cs" />
+     <Compile Include="Assets\Scripts\trajectory.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/Programming/UnityGames/Unity-game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
