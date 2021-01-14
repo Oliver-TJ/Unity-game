@@ -58,10 +58,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Actions.cs" />
-     <Compile Include="Assets\AutoDestroy.cs" />
-     <Compile Include="Assets\RTSController.cs" />
-     <Compile Include="Assets\camControl.cs" />
+     <Compile Include="Assets\Scripts\Actions.cs" />
+     <Compile Include="Assets\Scripts\AutoDestroy.cs" />
+     <Compile Include="Assets\Scripts\RTSController.cs" />
+     <Compile Include="Assets\Scripts\camControl.cs" />
+     <Compile Include="Assets\trajectory.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/Programming/UnityGames/Unity-game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
