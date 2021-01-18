@@ -49,7 +49,11 @@ The following packages were updated:
   com.unity.2d.psdimporter from version 2.1.5 to 2.1.6
   com.unity.2d.spriteshape from version 3.0.13 to 3.0.14
 
+<<<<<<< HEAD
 === Fri Jan 15 14:37:14 2021
+=======
+=== Mon Jan 18 10:35:16 2021
+>>>>>>> 2d2c12761222b0e4392809fa28390c129e8f312a
 
 Packages were changed.
 Update Mode: updateDependencies

@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3974105879617176611}
   - component: {fileID: 3974105879617176608}
   - component: {fileID: 4352231948506009884}
-  m_Layer: 0
-  m_Name: PathPoint 1
+  m_Layer: 5
+  m_Name: PathPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

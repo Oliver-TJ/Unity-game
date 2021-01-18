@@ -17,6 +17,7 @@
         - Ability design/balance
     - Enemy design
     - Objective design
+    camera character updates by frame, physics by fixed update
 
 - Potentially add multiplayer in future - Design to balance multiplayer 
 
