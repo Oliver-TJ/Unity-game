@@ -13,17 +13,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-01-18T10:53:29.715+00:00
-  initializedAtString: 2021-01-18T10:44:19.217+00:00
+  lastUpdatedAtString: 2021-01-18T12:05:59.899+00:00
+  initializedAtString: 2021-01-18T12:05:59.883+00:00
   localBranches:
   - name: Isaac
     tracking: origin/Isaac
   - name: main
     tracking: origin/main
+  - name: temp
+    tracking: origin/temp
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
+  - name: origin/Isaac
+    tracking: '[None]'
   - name: origin/main
+    tracking: '[None]'
+  - name: origin/temp
     tracking: '[None]'
   remotes:
   - name: origin
@@ -37,6 +43,7 @@ MonoBehaviour:
     keys:
     - Isaac
     - main
+    - temp
     values:
     - name: Isaac
       remote:
@@ -48,13 +55,20 @@ MonoBehaviour:
         name: origin
         url: https://github.com/Ike-G/unity-game.git
       trackingBranch: main
+    - name: temp
+      remote:
+        name: origin
+        url: https://github.com/Ike-G/unity-game.git
+      trackingBranch: temp
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
+      - Isaac
       - main
+      - temp
     subKeyValues:
     - Values:
       - name: HEAD
@@ -62,7 +76,17 @@ MonoBehaviour:
           name: origin
           url: https://github.com/Ike-G/unity-game.git
         trackingBranch: 
+      - name: Isaac
+        remote:
+          name: origin
+          url: https://github.com/Ike-G/unity-game.git
+        trackingBranch: 
       - name: main
+        remote:
+          name: origin
+          url: https://github.com/Ike-G/unity-game.git
+        trackingBranch: 
+      - name: temp
         remote:
           name: origin
           url: https://github.com/Ike-G/unity-game.git
