@@ -13,504 +13,624 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-01-18T12:07:26.953+00:00
-  initializedAtString: 2021-01-18T12:05:24.214+00:00
+  lastUpdatedAtString: 2021-01-19T12:44:21.914+00:00
+  initializedAtString: 2021-01-19T12:44:21.914+00:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: E:\Programming\UnityGames\Unity-game\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: GameScreenshots\KingScreenshot.png
+    fullPath: E:\Programming\UnityGames\Unity-game\GameScreenshots\KingScreenshot.png
+    projectPath: GameScreenshots\KingScreenshot.png
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: E:\Programming\UnityGames\Unity-game\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\APIUpdater\project-dependencies.graph
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\APIUpdater\project-dependencies.graph
-    projectPath: Library\APIUpdater\project-dependencies.graph
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ArtifactDB
     fullPath: E:\Programming\UnityGames\Unity-game\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\00\00b383b234ddfcbcb5f4e43a8696185e
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\00\00b383b234ddfcbcb5f4e43a8696185e
-    projectPath: Library\Artifacts\00\00b383b234ddfcbcb5f4e43a8696185e
+  - path: Library\Artifacts\03\03baebd99f983be1ed5ddc393c893af0
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\03\03baebd99f983be1ed5ddc393c893af0
+    projectPath: Library\Artifacts\03\03baebd99f983be1ed5ddc393c893af0
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\03\031a886e0a8b6d9f063a75343331e4a0
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\03\031a886e0a8b6d9f063a75343331e4a0
-    projectPath: Library\Artifacts\03\031a886e0a8b6d9f063a75343331e4a0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\04\044021e233a82efa07d2d392aba1fb17
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\04\044021e233a82efa07d2d392aba1fb17
-    projectPath: Library\Artifacts\04\044021e233a82efa07d2d392aba1fb17
+  - path: Library\Artifacts\04\04e0195a9ef7c24baf47a349a0f9137b
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\04\04e0195a9ef7c24baf47a349a0f9137b
+    projectPath: Library\Artifacts\04\04e0195a9ef7c24baf47a349a0f9137b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\0d\0df219da014c45c0ab11149874da7d21
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\0d\0df219da014c45c0ab11149874da7d21
-    projectPath: Library\Artifacts\0d\0df219da014c45c0ab11149874da7d21
+  - path: Library\Artifacts\09\09ae297010d75a2162b0bd5c84cac4da
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\09\09ae297010d75a2162b0bd5c84cac4da
+    projectPath: Library\Artifacts\09\09ae297010d75a2162b0bd5c84cac4da
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\13\13c33389821f0fc4211d86994a3f3bd6
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\13\13c33389821f0fc4211d86994a3f3bd6
-    projectPath: Library\Artifacts\13\13c33389821f0fc4211d86994a3f3bd6
+  - path: Library\Artifacts\0c\0cb8f9ef330a7fdfd9797ce23e675b9f
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\0c\0cb8f9ef330a7fdfd9797ce23e675b9f
+    projectPath: Library\Artifacts\0c\0cb8f9ef330a7fdfd9797ce23e675b9f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\1e\1eb3639da6c3a0a73f1aa2ad45d3e86c
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\1e\1eb3639da6c3a0a73f1aa2ad45d3e86c
-    projectPath: Library\Artifacts\1e\1eb3639da6c3a0a73f1aa2ad45d3e86c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\21\2122d4dff34b1dd070263b2e8889a9dc
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\21\2122d4dff34b1dd070263b2e8889a9dc
-    projectPath: Library\Artifacts\21\2122d4dff34b1dd070263b2e8889a9dc
+  - path: Library\Artifacts\0c\0cf678ca4d70e22d791045a894e2999b
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\0c\0cf678ca4d70e22d791045a894e2999b
+    projectPath: Library\Artifacts\0c\0cf678ca4d70e22d791045a894e2999b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\23\23de0ecf45a7cd39e0b1a2ca318f5f8d
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\23\23de0ecf45a7cd39e0b1a2ca318f5f8d
-    projectPath: Library\Artifacts\23\23de0ecf45a7cd39e0b1a2ca318f5f8d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\26\2666446dac7664772cdc259f646772e0
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\26\2666446dac7664772cdc259f646772e0
-    projectPath: Library\Artifacts\26\2666446dac7664772cdc259f646772e0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\28\284bd1d06a8d69903c883a37fbedddd4
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\28\284bd1d06a8d69903c883a37fbedddd4
-    projectPath: Library\Artifacts\28\284bd1d06a8d69903c883a37fbedddd4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2b\2b838827c0b8a9b58a0000d13fb8bd27
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\2b\2b838827c0b8a9b58a0000d13fb8bd27
-    projectPath: Library\Artifacts\2b\2b838827c0b8a9b58a0000d13fb8bd27
+  - path: Library\Artifacts\0e\0e5b4eead28569e6f5797b43b63fda90
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\0e\0e5b4eead28569e6f5797b43b63fda90
+    projectPath: Library\Artifacts\0e\0e5b4eead28569e6f5797b43b63fda90
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\36\360e8958f8ff0029d69d5b4b298440a8
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\36\360e8958f8ff0029d69d5b4b298440a8
-    projectPath: Library\Artifacts\36\360e8958f8ff0029d69d5b4b298440a8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\36\36335f04a272a9ccf44a066d3dfcc41b
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\36\36335f04a272a9ccf44a066d3dfcc41b
-    projectPath: Library\Artifacts\36\36335f04a272a9ccf44a066d3dfcc41b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3b\3b78a646d2a41079fe4acc73a0486edd
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\3b\3b78a646d2a41079fe4acc73a0486edd
-    projectPath: Library\Artifacts\3b\3b78a646d2a41079fe4acc73a0486edd
+  - path: Library\Artifacts\10\10627b1eb5a0236d72a1c7331f17a652
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\10\10627b1eb5a0236d72a1c7331f17a652
+    projectPath: Library\Artifacts\10\10627b1eb5a0236d72a1c7331f17a652
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\3c\3c7d602e0c3d943e4bb8a810f0a9d792
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\3c\3c7d602e0c3d943e4bb8a810f0a9d792
-    projectPath: Library\Artifacts\3c\3c7d602e0c3d943e4bb8a810f0a9d792
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3c\3c8bf14401d9a6fee560831807bf5e38
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\3c\3c8bf14401d9a6fee560831807bf5e38
-    projectPath: Library\Artifacts\3c\3c8bf14401d9a6fee560831807bf5e38
+  - path: Library\Artifacts\11\1155cdfc949f1736968dc4936ce3a85a
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\11\1155cdfc949f1736968dc4936ce3a85a
+    projectPath: Library\Artifacts\11\1155cdfc949f1736968dc4936ce3a85a
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\3e\3e1b7a27c0ac0bb92ab72f57420772e5
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\3e\3e1b7a27c0ac0bb92ab72f57420772e5
-    projectPath: Library\Artifacts\3e\3e1b7a27c0ac0bb92ab72f57420772e5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\42\42eaefdf0d076ecc028fcb12030804fc
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\42\42eaefdf0d076ecc028fcb12030804fc
-    projectPath: Library\Artifacts\42\42eaefdf0d076ecc028fcb12030804fc
+  - path: Library\Artifacts\11\119636ffd0067ff2d278518e5eb7fd70
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\11\119636ffd0067ff2d278518e5eb7fd70
+    projectPath: Library\Artifacts\11\119636ffd0067ff2d278518e5eb7fd70
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\43\43246dfc736cd55ca9491daf9284c5e2
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\43\43246dfc736cd55ca9491daf9284c5e2
-    projectPath: Library\Artifacts\43\43246dfc736cd55ca9491daf9284c5e2
+  - path: Library\Artifacts\12\127fd1ed7854863e07f81597f05d87e8
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\12\127fd1ed7854863e07f81597f05d87e8
+    projectPath: Library\Artifacts\12\127fd1ed7854863e07f81597f05d87e8
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\45\45a441137ac7b87f148ea5e24db2128e
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\45\45a441137ac7b87f148ea5e24db2128e
-    projectPath: Library\Artifacts\45\45a441137ac7b87f148ea5e24db2128e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4b\4bb157602df1078e755e45d3b24e40b0
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\4b\4bb157602df1078e755e45d3b24e40b0
-    projectPath: Library\Artifacts\4b\4bb157602df1078e755e45d3b24e40b0
+  - path: Library\Artifacts\13\13c214c83fb02fee34a2489e7d3043cd
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\13\13c214c83fb02fee34a2489e7d3043cd
+    projectPath: Library\Artifacts\13\13c214c83fb02fee34a2489e7d3043cd
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\4e\4e75c6036a9df0752d1db8e6ea41f1c8
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\4e\4e75c6036a9df0752d1db8e6ea41f1c8
-    projectPath: Library\Artifacts\4e\4e75c6036a9df0752d1db8e6ea41f1c8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\51\51521ae9e9f994da0266a1d1c7e66e32
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\51\51521ae9e9f994da0266a1d1c7e66e32
-    projectPath: Library\Artifacts\51\51521ae9e9f994da0266a1d1c7e66e32
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\54\54646e17a5876d310ddc851078c29a9c
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\54\54646e17a5876d310ddc851078c29a9c
-    projectPath: Library\Artifacts\54\54646e17a5876d310ddc851078c29a9c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\59\598333b7bcfe623a6c01c1b319ae85e8
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\59\598333b7bcfe623a6c01c1b319ae85e8
-    projectPath: Library\Artifacts\59\598333b7bcfe623a6c01c1b319ae85e8
+  - path: Library\Artifacts\14\1404163d5301889d814eb77330ed79a6
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\14\1404163d5301889d814eb77330ed79a6
+    projectPath: Library\Artifacts\14\1404163d5301889d814eb77330ed79a6
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\61\6118a0ffae165a42020dd1402976f8f5
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\61\6118a0ffae165a42020dd1402976f8f5
-    projectPath: Library\Artifacts\61\6118a0ffae165a42020dd1402976f8f5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6e\6ee45b3a1dd774f3d2294c6ae70e5640
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\6e\6ee45b3a1dd774f3d2294c6ae70e5640
-    projectPath: Library\Artifacts\6e\6ee45b3a1dd774f3d2294c6ae70e5640
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\70\7090d4e85743f0ecb36da434f1e4b90a
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\70\7090d4e85743f0ecb36da434f1e4b90a
-    projectPath: Library\Artifacts\70\7090d4e85743f0ecb36da434f1e4b90a
+  - path: Library\Artifacts\16\1605b12c8717c14b94303bf590ca928d
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\16\1605b12c8717c14b94303bf590ca928d
+    projectPath: Library\Artifacts\16\1605b12c8717c14b94303bf590ca928d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\75\75e4a2d73c968a62e66f8164a926f066
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\75\75e4a2d73c968a62e66f8164a926f066
-    projectPath: Library\Artifacts\75\75e4a2d73c968a62e66f8164a926f066
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\77\77784866c0ad23922d660824ee452bee
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\77\77784866c0ad23922d660824ee452bee
-    projectPath: Library\Artifacts\77\77784866c0ad23922d660824ee452bee
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\78\7875da6d279992dd9a48c375a8d04cdc
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\78\7875da6d279992dd9a48c375a8d04cdc
-    projectPath: Library\Artifacts\78\7875da6d279992dd9a48c375a8d04cdc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\79\792df833cb469391bf2870c04b161a1e
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\79\792df833cb469391bf2870c04b161a1e
-    projectPath: Library\Artifacts\79\792df833cb469391bf2870c04b161a1e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7a\7ad5ce28ed7d1b4a06ec618dd33e9994
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\7a\7ad5ce28ed7d1b4a06ec618dd33e9994
-    projectPath: Library\Artifacts\7a\7ad5ce28ed7d1b4a06ec618dd33e9994
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7e\7e532e53dbe061c96faab95d2074587b
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\7e\7e532e53dbe061c96faab95d2074587b
-    projectPath: Library\Artifacts\7e\7e532e53dbe061c96faab95d2074587b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7f\7f11fd1e00359b07582a8ad347abb801
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\7f\7f11fd1e00359b07582a8ad347abb801
-    projectPath: Library\Artifacts\7f\7f11fd1e00359b07582a8ad347abb801
+  - path: Library\Artifacts\16\1649ca8df41c1b9f541cb1b9666277d6
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\16\1649ca8df41c1b9f541cb1b9666277d6
+    projectPath: Library\Artifacts\16\1649ca8df41c1b9f541cb1b9666277d6
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\82\8280f8367a62481726af3811591b0bec
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\82\8280f8367a62481726af3811591b0bec
-    projectPath: Library\Artifacts\82\8280f8367a62481726af3811591b0bec
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\84\84f71042ede3007bcdcb0b4aec2919e9
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\84\84f71042ede3007bcdcb0b4aec2919e9
-    projectPath: Library\Artifacts\84\84f71042ede3007bcdcb0b4aec2919e9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\85\853989f6b453ad03df3c209eb8b5e37c
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\85\853989f6b453ad03df3c209eb8b5e37c
-    projectPath: Library\Artifacts\85\853989f6b453ad03df3c209eb8b5e37c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\85\853a780a2da39127887e1654f3f4247f
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\85\853a780a2da39127887e1654f3f4247f
-    projectPath: Library\Artifacts\85\853a780a2da39127887e1654f3f4247f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8d\8ddad19175bb7f65978bfc71f7a44f1d
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\8d\8ddad19175bb7f65978bfc71f7a44f1d
-    projectPath: Library\Artifacts\8d\8ddad19175bb7f65978bfc71f7a44f1d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\91\91e8ef4f6bf4ecf8bfd9b8b3228becd6
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\91\91e8ef4f6bf4ecf8bfd9b8b3228becd6
-    projectPath: Library\Artifacts\91\91e8ef4f6bf4ecf8bfd9b8b3228becd6
+  - path: Library\Artifacts\19\1992ca75884a4b7ca7e8690fc13af832
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\19\1992ca75884a4b7ca7e8690fc13af832
+    projectPath: Library\Artifacts\19\1992ca75884a4b7ca7e8690fc13af832
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\92\92916a458b8165beb4088bf57cf92009
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\92\92916a458b8165beb4088bf57cf92009
-    projectPath: Library\Artifacts\92\92916a458b8165beb4088bf57cf92009
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\96\964b4bd09a340586786489c797869f41
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\96\964b4bd09a340586786489c797869f41
-    projectPath: Library\Artifacts\96\964b4bd09a340586786489c797869f41
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\97\97529398c5a245d8d6eafb960cf9d6f8
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\97\97529398c5a245d8d6eafb960cf9d6f8
-    projectPath: Library\Artifacts\97\97529398c5a245d8d6eafb960cf9d6f8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\98\98ba217eb2bf1d1d8fc414dbf6c53f88
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\98\98ba217eb2bf1d1d8fc414dbf6c53f88
-    projectPath: Library\Artifacts\98\98ba217eb2bf1d1d8fc414dbf6c53f88
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9a\9a5f733642961d6d0dee3afffb46d90d
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\9a\9a5f733642961d6d0dee3afffb46d90d
-    projectPath: Library\Artifacts\9a\9a5f733642961d6d0dee3afffb46d90d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9b\9b7e64d131898f9725f98efc23ff4f0b
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\9b\9b7e64d131898f9725f98efc23ff4f0b
-    projectPath: Library\Artifacts\9b\9b7e64d131898f9725f98efc23ff4f0b
+  - path: Library\Artifacts\1b\1b680c2d29fa111ad11d21a878de5266
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\1b\1b680c2d29fa111ad11d21a878de5266
+    projectPath: Library\Artifacts\1b\1b680c2d29fa111ad11d21a878de5266
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\a4\a4d7637de521bb3b5c916e229c8ba9d3
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\a4\a4d7637de521bb3b5c916e229c8ba9d3
-    projectPath: Library\Artifacts\a4\a4d7637de521bb3b5c916e229c8ba9d3
+  - path: Library\Artifacts\25\2509dcab9ed371c0eaa018f06125be17
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\25\2509dcab9ed371c0eaa018f06125be17
+    projectPath: Library\Artifacts\25\2509dcab9ed371c0eaa018f06125be17
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\a6\a62d5ac8d7df1529c6bd128de8f41966
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\a6\a62d5ac8d7df1529c6bd128de8f41966
-    projectPath: Library\Artifacts\a6\a62d5ac8d7df1529c6bd128de8f41966
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\aa\aae053fa3070bfc2b10e764ffd0099d3
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\aa\aae053fa3070bfc2b10e764ffd0099d3
-    projectPath: Library\Artifacts\aa\aae053fa3070bfc2b10e764ffd0099d3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ad\ad6cfd9745ec2f30ebfbb5e2c84a8b74
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ad\ad6cfd9745ec2f30ebfbb5e2c84a8b74
-    projectPath: Library\Artifacts\ad\ad6cfd9745ec2f30ebfbb5e2c84a8b74
+  - path: Library\Artifacts\26\2638eae764a6b552755a752c6d843c7b
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\26\2638eae764a6b552755a752c6d843c7b
+    projectPath: Library\Artifacts\26\2638eae764a6b552755a752c6d843c7b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\b2\b231063ea885c66be5cb93048ae37356
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\b2\b231063ea885c66be5cb93048ae37356
-    projectPath: Library\Artifacts\b2\b231063ea885c66be5cb93048ae37356
+  - path: Library\Artifacts\28\286549865de6577c89fcdf899bbc3da5
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\28\286549865de6577c89fcdf899bbc3da5
+    projectPath: Library\Artifacts\28\286549865de6577c89fcdf899bbc3da5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\bf\bf0e1074889954d8ef2cfd0539b7922d
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\bf\bf0e1074889954d8ef2cfd0539b7922d
-    projectPath: Library\Artifacts\bf\bf0e1074889954d8ef2cfd0539b7922d
+  - path: Library\Artifacts\2a\2a0a0113790a3ae3547465a491818bab
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\2a\2a0a0113790a3ae3547465a491818bab
+    projectPath: Library\Artifacts\2a\2a0a0113790a3ae3547465a491818bab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\bf\bfc99b5e75844da02e850b9a77ab1791
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\bf\bfc99b5e75844da02e850b9a77ab1791
-    projectPath: Library\Artifacts\bf\bfc99b5e75844da02e850b9a77ab1791
+  - path: Library\Artifacts\2c\2ca1a5c08babd781759e1105a970f3d1
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\2c\2ca1a5c08babd781759e1105a970f3d1
+    projectPath: Library\Artifacts\2c\2ca1a5c08babd781759e1105a970f3d1
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\cb\cbeaf252d04cede494b7f03bd6d61e46
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\cb\cbeaf252d04cede494b7f03bd6d61e46
-    projectPath: Library\Artifacts\cb\cbeaf252d04cede494b7f03bd6d61e46
+  - path: Library\Artifacts\2f\2fa2f552f229af0a5b424d3cd80d2747
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\2f\2fa2f552f229af0a5b424d3cd80d2747
+    projectPath: Library\Artifacts\2f\2fa2f552f229af0a5b424d3cd80d2747
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\cc\cc96fd98441318b61b883543373f71f5
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\cc\cc96fd98441318b61b883543373f71f5
-    projectPath: Library\Artifacts\cc\cc96fd98441318b61b883543373f71f5
+  - path: Library\Artifacts\30\302583d80c632e1df9de493b0e538b36
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\30\302583d80c632e1df9de493b0e538b36
+    projectPath: Library\Artifacts\30\302583d80c632e1df9de493b0e538b36
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ce\cede96f73a9f9ba6a3999c98c7f782af
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ce\cede96f73a9f9ba6a3999c98c7f782af
-    projectPath: Library\Artifacts\ce\cede96f73a9f9ba6a3999c98c7f782af
+  - path: Library\Artifacts\30\30932b60b813ef9a024450ca7867684e
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\30\30932b60b813ef9a024450ca7867684e
+    projectPath: Library\Artifacts\30\30932b60b813ef9a024450ca7867684e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\d0\d06007fc3bd32ec15153ee440806ca84
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\d0\d06007fc3bd32ec15153ee440806ca84
-    projectPath: Library\Artifacts\d0\d06007fc3bd32ec15153ee440806ca84
+  - path: Library\Artifacts\33\33a9f77080f53d3c537a2ba04da1bf80
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\33\33a9f77080f53d3c537a2ba04da1bf80
+    projectPath: Library\Artifacts\33\33a9f77080f53d3c537a2ba04da1bf80
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\d0\d0c2c9ff9e1c29a696f68a682f50e76d
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\d0\d0c2c9ff9e1c29a696f68a682f50e76d
-    projectPath: Library\Artifacts\d0\d0c2c9ff9e1c29a696f68a682f50e76d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d5\d54c0b09e5163270f842fa03d0e4cfd6
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\d5\d54c0b09e5163270f842fa03d0e4cfd6
-    projectPath: Library\Artifacts\d5\d54c0b09e5163270f842fa03d0e4cfd6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d8\d849bc725c310c21382bdd73d3f6eee0
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\d8\d849bc725c310c21382bdd73d3f6eee0
-    projectPath: Library\Artifacts\d8\d849bc725c310c21382bdd73d3f6eee0
+  - path: Library\Artifacts\36\3699c0b191973220f41ba2394651995f
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\36\3699c0b191973220f41ba2394651995f
+    projectPath: Library\Artifacts\36\3699c0b191973220f41ba2394651995f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\da\da2bbacb76517fb355483d9a53d45f6e
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\da\da2bbacb76517fb355483d9a53d45f6e
-    projectPath: Library\Artifacts\da\da2bbacb76517fb355483d9a53d45f6e
+  - path: Library\Artifacts\38\386d8f33200eba71af687d465456fa97
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\38\386d8f33200eba71af687d465456fa97
+    projectPath: Library\Artifacts\38\386d8f33200eba71af687d465456fa97
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\db\dbaf957fc26d8564b68e35db2d940fb4
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\db\dbaf957fc26d8564b68e35db2d940fb4
-    projectPath: Library\Artifacts\db\dbaf957fc26d8564b68e35db2d940fb4
+  - path: Library\Artifacts\3b\3b5071404b49cb39705c2a3fe521cb39
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\3b\3b5071404b49cb39705c2a3fe521cb39
+    projectPath: Library\Artifacts\3b\3b5071404b49cb39705c2a3fe521cb39
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\dd\dd3cc0a34c1f2c391a75ba8bbcded3aa
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\dd\dd3cc0a34c1f2c391a75ba8bbcded3aa
-    projectPath: Library\Artifacts\dd\dd3cc0a34c1f2c391a75ba8bbcded3aa
+  - path: Library\Artifacts\46\467ee123f350348d0eb978a6d88674bc
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\46\467ee123f350348d0eb978a6d88674bc
+    projectPath: Library\Artifacts\46\467ee123f350348d0eb978a6d88674bc
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\e7\e7aea7590a36646b53e160c5f64cc6b5
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\e7\e7aea7590a36646b53e160c5f64cc6b5
-    projectPath: Library\Artifacts\e7\e7aea7590a36646b53e160c5f64cc6b5
+  - path: Library\Artifacts\4a\4a188b0c62d0ae9997c64bceb317255f
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\4a\4a188b0c62d0ae9997c64bceb317255f
+    projectPath: Library\Artifacts\4a\4a188b0c62d0ae9997c64bceb317255f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ec\ecdd34b5ac39bf8ac45dabdd850e16c6
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ec\ecdd34b5ac39bf8ac45dabdd850e16c6
-    projectPath: Library\Artifacts\ec\ecdd34b5ac39bf8ac45dabdd850e16c6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f4\f4fd5814fbcc2dfd056617946b6b2169
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\f4\f4fd5814fbcc2dfd056617946b6b2169
-    projectPath: Library\Artifacts\f4\f4fd5814fbcc2dfd056617946b6b2169
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f6\f6268027b0c4a8f30bbea852df82564f
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\f6\f6268027b0c4a8f30bbea852df82564f
-    projectPath: Library\Artifacts\f6\f6268027b0c4a8f30bbea852df82564f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fe\fed720d2ea00a849a0acf12b916c86a4
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\fe\fed720d2ea00a849a0acf12b916c86a4
-    projectPath: Library\Artifacts\fe\fed720d2ea00a849a0acf12b916c86a4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ff\ff4fe1b1f033cc156fb6c08a35625353
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ff\ff4fe1b1f033cc156fb6c08a35625353
-    projectPath: Library\Artifacts\ff\ff4fe1b1f033cc156fb6c08a35625353
+  - path: Library\Artifacts\4c\4c0174e11ac92b315ecff41dbf18e458
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\4c\4c0174e11ac92b315ecff41dbf18e458
+    projectPath: Library\Artifacts\4c\4c0174e11ac92b315ecff41dbf18e458
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ff\ff6e77bf502dccb4814af3cc46cec0a4
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ff\ff6e77bf502dccb4814af3cc46cec0a4
-    projectPath: Library\Artifacts\ff\ff6e77bf502dccb4814af3cc46cec0a4
+  - path: Library\Artifacts\4e\4ec7c9d1acf4aeb078a42864fbb9cbbc
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\4e\4ec7c9d1acf4aeb078a42864fbb9cbbc
+    projectPath: Library\Artifacts\4e\4ec7c9d1acf4aeb078a42864fbb9cbbc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4f\4fc421b06153742d236a9ee959d66548
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\4f\4fc421b06153742d236a9ee959d66548
+    projectPath: Library\Artifacts\4f\4fc421b06153742d236a9ee959d66548
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\50\50c0624a5aca0dc7770e2bd3893bbd16
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\50\50c0624a5aca0dc7770e2bd3893bbd16
+    projectPath: Library\Artifacts\50\50c0624a5aca0dc7770e2bd3893bbd16
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\54\540ecac5bce87250563646062543133b
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\54\540ecac5bce87250563646062543133b
+    projectPath: Library\Artifacts\54\540ecac5bce87250563646062543133b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\58\586b29326b339c48d9f54af8ac596b86
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\58\586b29326b339c48d9f54af8ac596b86
+    projectPath: Library\Artifacts\58\586b29326b339c48d9f54af8ac596b86
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\58\588ae441ff682cc6cae6ed05382c093c
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\58\588ae441ff682cc6cae6ed05382c093c
+    projectPath: Library\Artifacts\58\588ae441ff682cc6cae6ed05382c093c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5c\5c443fc7bf523538ec429fbd922cebee
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\5c\5c443fc7bf523538ec429fbd922cebee
+    projectPath: Library\Artifacts\5c\5c443fc7bf523538ec429fbd922cebee
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5d\5d183ca44048935924a5ba05ae360722
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\5d\5d183ca44048935924a5ba05ae360722
+    projectPath: Library\Artifacts\5d\5d183ca44048935924a5ba05ae360722
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\60\6022fdf97d684dd0c9c687a44e55933f
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\60\6022fdf97d684dd0c9c687a44e55933f
+    projectPath: Library\Artifacts\60\6022fdf97d684dd0c9c687a44e55933f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\63\63f50f8942bf8a772b35672c6bdb7628
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\63\63f50f8942bf8a772b35672c6bdb7628
+    projectPath: Library\Artifacts\63\63f50f8942bf8a772b35672c6bdb7628
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\65\6531336c64f19c943af38d4d5fbac30c
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\65\6531336c64f19c943af38d4d5fbac30c
+    projectPath: Library\Artifacts\65\6531336c64f19c943af38d4d5fbac30c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\6a\6ac962224743b8557d16b15688dcc391
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\6a\6ac962224743b8557d16b15688dcc391
+    projectPath: Library\Artifacts\6a\6ac962224743b8557d16b15688dcc391
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\6c\6c95cfd32343041f0c9d359d0726ff1e
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\6c\6c95cfd32343041f0c9d359d0726ff1e
+    projectPath: Library\Artifacts\6c\6c95cfd32343041f0c9d359d0726ff1e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\6d\6ddab57124d461c35bc929c3a0d5a8c2
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\6d\6ddab57124d461c35bc929c3a0d5a8c2
+    projectPath: Library\Artifacts\6d\6ddab57124d461c35bc929c3a0d5a8c2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\71\7163f8f5775dcd7fb95dc7099411eca4
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\71\7163f8f5775dcd7fb95dc7099411eca4
+    projectPath: Library\Artifacts\71\7163f8f5775dcd7fb95dc7099411eca4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\71\71d144eeeba023b9d123bba1d46eb5bc
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\71\71d144eeeba023b9d123bba1d46eb5bc
+    projectPath: Library\Artifacts\71\71d144eeeba023b9d123bba1d46eb5bc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\75\75682a1337cb585bbecf6eca144ad118
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\75\75682a1337cb585bbecf6eca144ad118
+    projectPath: Library\Artifacts\75\75682a1337cb585bbecf6eca144ad118
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\75\759d21c2f66651e1c1caabe9e6bbd91d
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\75\759d21c2f66651e1c1caabe9e6bbd91d
+    projectPath: Library\Artifacts\75\759d21c2f66651e1c1caabe9e6bbd91d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\75\75f4b31b259c176511f6d7543d12573c
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\75\75f4b31b259c176511f6d7543d12573c
+    projectPath: Library\Artifacts\75\75f4b31b259c176511f6d7543d12573c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7a\7a7a4d1d07e87a8f69b994eab854dfc4
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\7a\7a7a4d1d07e87a8f69b994eab854dfc4
+    projectPath: Library\Artifacts\7a\7a7a4d1d07e87a8f69b994eab854dfc4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7c\7c4124eeb6c993c6415167b1e8221a07
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\7c\7c4124eeb6c993c6415167b1e8221a07
+    projectPath: Library\Artifacts\7c\7c4124eeb6c993c6415167b1e8221a07
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\82\82d1a263fbdd4f2f9ca475b709686078
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\82\82d1a263fbdd4f2f9ca475b709686078
+    projectPath: Library\Artifacts\82\82d1a263fbdd4f2f9ca475b709686078
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\84\847d74c8e0071b3288809ab9df2d6d30
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\84\847d74c8e0071b3288809ab9df2d6d30
+    projectPath: Library\Artifacts\84\847d74c8e0071b3288809ab9df2d6d30
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\87\874ff1a30c352e79d794de48f72660be
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\87\874ff1a30c352e79d794de48f72660be
+    projectPath: Library\Artifacts\87\874ff1a30c352e79d794de48f72660be
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\87\87e4e8611dece0b81a40b329a36ed5af
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\87\87e4e8611dece0b81a40b329a36ed5af
+    projectPath: Library\Artifacts\87\87e4e8611dece0b81a40b329a36ed5af
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\88\888c1b09cbc462c8d1f0149acd4084c8
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\88\888c1b09cbc462c8d1f0149acd4084c8
+    projectPath: Library\Artifacts\88\888c1b09cbc462c8d1f0149acd4084c8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8a\8a321db839893488b5a06ea39f3eed49
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\8a\8a321db839893488b5a06ea39f3eed49
+    projectPath: Library\Artifacts\8a\8a321db839893488b5a06ea39f3eed49
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8a\8ad2bd38457aab197d905aac653d74d0
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\8a\8ad2bd38457aab197d905aac653d74d0
+    projectPath: Library\Artifacts\8a\8ad2bd38457aab197d905aac653d74d0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8a\8ae37c890295715d69a0fdf911f6683b
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\8a\8ae37c890295715d69a0fdf911f6683b
+    projectPath: Library\Artifacts\8a\8ae37c890295715d69a0fdf911f6683b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8c\8cc639e24149b6a6082ef8e85fc1b262
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\8c\8cc639e24149b6a6082ef8e85fc1b262
+    projectPath: Library\Artifacts\8c\8cc639e24149b6a6082ef8e85fc1b262
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8f\8f85addf2944954042cb398b8b9a9059
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\8f\8f85addf2944954042cb398b8b9a9059
+    projectPath: Library\Artifacts\8f\8f85addf2944954042cb398b8b9a9059
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\90\90dda31c6005b2bc289e1dd07e4ddc05
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\90\90dda31c6005b2bc289e1dd07e4ddc05
+    projectPath: Library\Artifacts\90\90dda31c6005b2bc289e1dd07e4ddc05
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\96\966fd314216851981556f40d737a96ca
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\96\966fd314216851981556f40d737a96ca
+    projectPath: Library\Artifacts\96\966fd314216851981556f40d737a96ca
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\97\9774e4e6c60af783c547b72815948237
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\97\9774e4e6c60af783c547b72815948237
+    projectPath: Library\Artifacts\97\9774e4e6c60af783c547b72815948237
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\98\98ea1ab4dbbd189b690af4f979ea0383
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\98\98ea1ab4dbbd189b690af4f979ea0383
+    projectPath: Library\Artifacts\98\98ea1ab4dbbd189b690af4f979ea0383
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9c\9c1715d5442a240e014ce2d01c15ee4e
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\9c\9c1715d5442a240e014ce2d01c15ee4e
+    projectPath: Library\Artifacts\9c\9c1715d5442a240e014ce2d01c15ee4e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a0\a04c089292b0f2f569ba87cb30f84174
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\a0\a04c089292b0f2f569ba87cb30f84174
+    projectPath: Library\Artifacts\a0\a04c089292b0f2f569ba87cb30f84174
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a2\a28b1b0232bd6a4d5166a220cfd8bb27
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\a2\a28b1b0232bd6a4d5166a220cfd8bb27
+    projectPath: Library\Artifacts\a2\a28b1b0232bd6a4d5166a220cfd8bb27
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a3\a39fa1ac37d7e6a7ae417e1813069720
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\a3\a39fa1ac37d7e6a7ae417e1813069720
+    projectPath: Library\Artifacts\a3\a39fa1ac37d7e6a7ae417e1813069720
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a3\a3efa46c00edf779461cd91e85e1e5c1
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\a3\a3efa46c00edf779461cd91e85e1e5c1
+    projectPath: Library\Artifacts\a3\a3efa46c00edf779461cd91e85e1e5c1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ad\ad138f6745c15dd677719a4e876c7a81
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ad\ad138f6745c15dd677719a4e876c7a81
+    projectPath: Library\Artifacts\ad\ad138f6745c15dd677719a4e876c7a81
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ad\adaa6db72b5871f804832d85e419f14d
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ad\adaa6db72b5871f804832d85e419f14d
+    projectPath: Library\Artifacts\ad\adaa6db72b5871f804832d85e419f14d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ae\ae02561413cdbcca1a370067236ec6e5
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ae\ae02561413cdbcca1a370067236ec6e5
+    projectPath: Library\Artifacts\ae\ae02561413cdbcca1a370067236ec6e5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b4\b4324b34f83c80aaa1ba0521169c5c04
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\b4\b4324b34f83c80aaa1ba0521169c5c04
+    projectPath: Library\Artifacts\b4\b4324b34f83c80aaa1ba0521169c5c04
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b7\b7ae75aed4e0e28ed99ca79e11248630
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\b7\b7ae75aed4e0e28ed99ca79e11248630
+    projectPath: Library\Artifacts\b7\b7ae75aed4e0e28ed99ca79e11248630
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b7\b7f7f9f2e10e0d3e4902ecb9d15845fb
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\b7\b7f7f9f2e10e0d3e4902ecb9d15845fb
+    projectPath: Library\Artifacts\b7\b7f7f9f2e10e0d3e4902ecb9d15845fb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b8\b8f50246c1d8c43cb94f25ff334554c6
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\b8\b8f50246c1d8c43cb94f25ff334554c6
+    projectPath: Library\Artifacts\b8\b8f50246c1d8c43cb94f25ff334554c6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ba\ba8d981605cbf5667da0fb758c0be23a
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ba\ba8d981605cbf5667da0fb758c0be23a
+    projectPath: Library\Artifacts\ba\ba8d981605cbf5667da0fb758c0be23a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ba\bab037ca767dda632f5df3ce4cdd6295
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ba\bab037ca767dda632f5df3ce4cdd6295
+    projectPath: Library\Artifacts\ba\bab037ca767dda632f5df3ce4cdd6295
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c1\c1f1750a480e591b10c26bbda7a24a7f
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\c1\c1f1750a480e591b10c26bbda7a24a7f
+    projectPath: Library\Artifacts\c1\c1f1750a480e591b10c26bbda7a24a7f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c5\c51c52943e29b1dc9ca1591c31248ffe
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\c5\c51c52943e29b1dc9ca1591c31248ffe
+    projectPath: Library\Artifacts\c5\c51c52943e29b1dc9ca1591c31248ffe
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c6\c6aaeff2b7aeb14b7091f1b9cfe4b56b
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\c6\c6aaeff2b7aeb14b7091f1b9cfe4b56b
+    projectPath: Library\Artifacts\c6\c6aaeff2b7aeb14b7091f1b9cfe4b56b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c8\c845a509d9b663649ba01fed43e44947
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\c8\c845a509d9b663649ba01fed43e44947
+    projectPath: Library\Artifacts\c8\c845a509d9b663649ba01fed43e44947
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ca\ca4d506761fe7e4ab25860329f246fca
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\ca\ca4d506761fe7e4ab25860329f246fca
+    projectPath: Library\Artifacts\ca\ca4d506761fe7e4ab25860329f246fca
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\cc\cceadc97e128e2a5de7079d678b4f5d2
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\cc\cceadc97e128e2a5de7079d678b4f5d2
+    projectPath: Library\Artifacts\cc\cceadc97e128e2a5de7079d678b4f5d2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d5\d5488f1fbfabdcbac0ee5116e685e4e2
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\d5\d5488f1fbfabdcbac0ee5116e685e4e2
+    projectPath: Library\Artifacts\d5\d5488f1fbfabdcbac0ee5116e685e4e2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d8\d83d62da46c68e822c34635a405305b1
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\d8\d83d62da46c68e822c34635a405305b1
+    projectPath: Library\Artifacts\d8\d83d62da46c68e822c34635a405305b1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\dc\dcf7f5ac4ab2d578be3376b5740557c9
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\dc\dcf7f5ac4ab2d578be3376b5740557c9
+    projectPath: Library\Artifacts\dc\dcf7f5ac4ab2d578be3376b5740557c9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\dd\dd99a119ad7f2d6ab7e03ec9427a947e
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\dd\dd99a119ad7f2d6ab7e03ec9427a947e
+    projectPath: Library\Artifacts\dd\dd99a119ad7f2d6ab7e03ec9427a947e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e2\e2a30f8724c8fa8a9d66c77bcdb6ef76
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\e2\e2a30f8724c8fa8a9d66c77bcdb6ef76
+    projectPath: Library\Artifacts\e2\e2a30f8724c8fa8a9d66c77bcdb6ef76
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e3\e32e9fd4c7d3b63ce8639650b691b83f
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\e3\e32e9fd4c7d3b63ce8639650b691b83f
+    projectPath: Library\Artifacts\e3\e32e9fd4c7d3b63ce8639650b691b83f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e4\e4d6ab3f8fa9bbde647ac31216d9ad34
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\e4\e4d6ab3f8fa9bbde647ac31216d9ad34
+    projectPath: Library\Artifacts\e4\e4d6ab3f8fa9bbde647ac31216d9ad34
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e6\e60d8b73f3e0bac834427d50a0a9f089
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\e6\e60d8b73f3e0bac834427d50a0a9f089
+    projectPath: Library\Artifacts\e6\e60d8b73f3e0bac834427d50a0a9f089
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e6\e67b10440ff772462ca33f5c364e7135
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\e6\e67b10440ff772462ca33f5c364e7135
+    projectPath: Library\Artifacts\e6\e67b10440ff772462ca33f5c364e7135
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e7\e7d648b8a8d2012df9e1fa01fddd6846
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\e7\e7d648b8a8d2012df9e1fa01fddd6846
+    projectPath: Library\Artifacts\e7\e7d648b8a8d2012df9e1fa01fddd6846
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f2\f283910792176ac981f6274a196054d6
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\f2\f283910792176ac981f6274a196054d6
+    projectPath: Library\Artifacts\f2\f283910792176ac981f6274a196054d6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f6\f6e7b00e12f0a31f6eb0c0470be1d1f2
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\f6\f6e7b00e12f0a31f6eb0c0470be1d1f2
+    projectPath: Library\Artifacts\f6\f6e7b00e12f0a31f6eb0c0470be1d1f2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fb\fbe81f6f48698f78141fe8b23ce10743
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\fb\fbe81f6f48698f78141fe8b23ce10743
+    projectPath: Library\Artifacts\fb\fbe81f6f48698f78141fe8b23ce10743
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fd\fde5cfc2979d551fe0100daf08349edc
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\Artifacts\fd\fde5cfc2979d551fe0100daf08349edc
+    projectPath: Library\Artifacts\fd\fde5cfc2979d551fe0100daf08349edc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\EditorInstance.json
     fullPath: E:\Programming\UnityGames\Unity-game\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\gfu\cache\gittrackingstatus.yaml
-    projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json
-    projectPath: Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PackageCache\com.unity.test-framework@1.1.20\package.json
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\PackageCache\com.unity.test-framework@1.1.20\package.json
-    projectPath: Library\PackageCache\com.unity.test-framework@1.1.20\package.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -518,380 +638,32 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Library\ProtocolInstance.json
     projectPath: Library\ProtocolInstance.json
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\1\13f8ae3e1ae9797d78bbdd878db0532b.bin
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\ShaderCache\1\13f8ae3e1ae9797d78bbdd878db0532b.bin
+    projectPath: Library\ShaderCache\1\13f8ae3e1ae9797d78bbdd878db0532b.bin
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\SceneVisibilityState.asset
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: Library\ShaderCache\4\474172a74f0c54f8b7b904cac5b1e858.bin
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\ShaderCache\4\474172a74f0c54f8b7b904cac5b1e858.bin
+    projectPath: Library\ShaderCache\4\474172a74f0c54f8b7b904cac5b1e858.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7af50bff3756db31ae249555f39e78d3.bin
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\ShaderCache\7\7af50bff3756db31ae249555f39e78d3.bin
+    projectPath: Library\ShaderCache\7\7af50bff3756db31ae249555f39e78d3.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c18ba3e19c97ce1268b557b564d57dc2.bin
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\ShaderCache\c\c18ba3e19c97ce1268b557b564d57dc2.bin
+    projectPath: Library\ShaderCache\c\c18ba3e19c97ce1268b557b564d57dc2.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\PsdPlugin.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\PsdPlugin.dll
-    projectPath: Library\ScriptAssemblies\PsdPlugin.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\PsdPlugin.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\PsdPlugin.pdb
-    projectPath: Library\ScriptAssemblies\PsdPlugin.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Animation.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Animation.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Animation.Runtime.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Common.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Common.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Common.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Path.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Path.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Path.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.PixelPerfect.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.PixelPerfect.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.PixelPerfect.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-    projectPath: Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.pdb
-    projectPath: Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-    projectPath: Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.pdb
-    projectPath: Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Mathematics.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Mathematics.dll
-    projectPath: Library\ScriptAssemblies\Unity.Mathematics.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Mathematics.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Mathematics.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Mathematics.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Mathematics.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Mathematics.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Mathematics.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.Timeline.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\UnityEditor.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.UI.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\UnityEditor.UI.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\UnityEngine.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.UI.pdb
-    fullPath: E:\Programming\UnityGames\Unity-game\Library\ScriptAssemblies\UnityEngine.UI.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: E:\Programming\UnityGames\Unity-game\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -904,39 +676,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: E:\Programming\UnityGames\Unity-game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+  - path: Library\SourceAssetDB-lock
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\SourceAssetDB-lock
+    projectPath: Library\SourceAssetDB-lock
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: E:\Programming\UnityGames\Unity-game\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+  - path: Library\StateCache\Hierarchy\cdd4f7-2824a519e973b64468.json
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\StateCache\Hierarchy\cdd4f7-2824a519e973b64468.json
+    projectPath: Library\StateCache\Hierarchy\cdd4f7-2824a519e973b64468.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Packages\packages-lock.json
-    fullPath: E:\Programming\UnityGames\Unity-game\Packages\packages-lock.json
-    projectPath: Packages\packages-lock.json
+  - path: Library\StateCache\Hierarchy\cdd4f7-mainStage.json
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\StateCache\Hierarchy\cdd4f7-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\cdd4f7-mainStage.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: README.md
-    fullPath: E:\Programming\UnityGames\Unity-game\README.md
-    projectPath: README.md
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\b61d05-2824a519e973b64468.json
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\StateCache\SceneView\b61d05-2824a519e973b64468.json
+    projectPath: Library\StateCache\SceneView\b61d05-2824a519e973b64468.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\b61d05-mainStage.json
+    fullPath: E:\Programming\UnityGames\Unity-game\Library\StateCache\SceneView\b61d05-mainStage.json
+    projectPath: Library\StateCache\SceneView\b61d05-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-07063f3153fbadb46a4eeaea0dea06ef
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-07063f3153fbadb46a4eeaea0dea06ef
     projectPath: Temp\UnityTempFile-07063f3153fbadb46a4eeaea0dea06ef
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-0bf6f7eb357e58546a71ed3973574fb7
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-0bf6f7eb357e58546a71ed3973574fb7
-    projectPath: Temp\UnityTempFile-0bf6f7eb357e58546a71ed3973574fb7
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -944,47 +716,23 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-179d878840c2e604ab648bc1efdb4287
     projectPath: Temp\UnityTempFile-179d878840c2e604ab648bc1efdb4287
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-1817c36df747eef459d1a7020b54e245
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-1817c36df747eef459d1a7020b54e245
-    projectPath: Temp\UnityTempFile-1817c36df747eef459d1a7020b54e245
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Temp\UnityTempFile-185acd78c68123a4ead17ec347b931c4
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-185acd78c68123a4ead17ec347b931c4
     projectPath: Temp\UnityTempFile-185acd78c68123a4ead17ec347b931c4
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-25fee036a6671974594aa0435267e162
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-25fee036a6671974594aa0435267e162
     projectPath: Temp\UnityTempFile-25fee036a6671974594aa0435267e162
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-2616ef4554bc2d7488b99aad2721e4dd
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-2616ef4554bc2d7488b99aad2721e4dd
     projectPath: Temp\UnityTempFile-2616ef4554bc2d7488b99aad2721e4dd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-27529b9336329194eab17ba9d201c7b1
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-27529b9336329194eab17ba9d201c7b1
-    projectPath: Temp\UnityTempFile-27529b9336329194eab17ba9d201c7b1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-2918775441031ff40a6a17ffdcc1e44d
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-2918775441031ff40a6a17ffdcc1e44d
-    projectPath: Temp\UnityTempFile-2918775441031ff40a6a17ffdcc1e44d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-2a76dd6ac1f92514bbfd661e43ebd003
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-2a76dd6ac1f92514bbfd661e43ebd003
-    projectPath: Temp\UnityTempFile-2a76dd6ac1f92514bbfd661e43ebd003
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -992,17 +740,11 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-2c80346a71abc25418c21d07055dfa87
     projectPath: Temp\UnityTempFile-2c80346a71abc25418c21d07055dfa87
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-3a2b4fc7ccbec0f449a4fafd52cee3d2
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-3a2b4fc7ccbec0f449a4fafd52cee3d2
     projectPath: Temp\UnityTempFile-3a2b4fc7ccbec0f449a4fafd52cee3d2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-3ba746a38722d4b41bf08c245a063f36
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-3ba746a38722d4b41bf08c245a063f36
-    projectPath: Temp\UnityTempFile-3ba746a38722d4b41bf08c245a063f36
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1010,35 +752,11 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-3fc8cec7ffee5284e967670f2dd12817
     projectPath: Temp\UnityTempFile-3fc8cec7ffee5284e967670f2dd12817
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-4711465f1aefb1149b76f0fd18d7f2d8
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-4711465f1aefb1149b76f0fd18d7f2d8
     projectPath: Temp\UnityTempFile-4711465f1aefb1149b76f0fd18d7f2d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4a611e4ae7b38154488769903d01b179
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-4a611e4ae7b38154488769903d01b179
-    projectPath: Temp\UnityTempFile-4a611e4ae7b38154488769903d01b179
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-4d6db2c0a1464b34cac515418ab5422f
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-4d6db2c0a1464b34cac515418ab5422f
-    projectPath: Temp\UnityTempFile-4d6db2c0a1464b34cac515418ab5422f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-5846629425653494b8bbab3659d43096
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-5846629425653494b8bbab3659d43096
-    projectPath: Temp\UnityTempFile-5846629425653494b8bbab3659d43096
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-587c59c7b7eaa4a40afdd9aeaa741dc4
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-587c59c7b7eaa4a40afdd9aeaa741dc4
-    projectPath: Temp\UnityTempFile-587c59c7b7eaa4a40afdd9aeaa741dc4
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1046,65 +764,29 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-5948afc27f910b149836639f6122f875
     projectPath: Temp\UnityTempFile-5948afc27f910b149836639f6122f875
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-59e3c40bfe6ce674da609dcbfffaab9e
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-59e3c40bfe6ce674da609dcbfffaab9e
-    projectPath: Temp\UnityTempFile-59e3c40bfe6ce674da609dcbfffaab9e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-62a721eb2858a4141826fbbf88ff0a65
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-62a721eb2858a4141826fbbf88ff0a65
-    projectPath: Temp\UnityTempFile-62a721eb2858a4141826fbbf88ff0a65
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-6361a636d5f367d4cbd040fbf039f588
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-6361a636d5f367d4cbd040fbf039f588
-    projectPath: Temp\UnityTempFile-6361a636d5f367d4cbd040fbf039f588
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-64aed88a89870c64fa9def75c278e42b
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-64aed88a89870c64fa9def75c278e42b
-    projectPath: Temp\UnityTempFile-64aed88a89870c64fa9def75c278e42b
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Temp\UnityTempFile-6836e7c776764c149940e5ae7b0818a3
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-6836e7c776764c149940e5ae7b0818a3
     projectPath: Temp\UnityTempFile-6836e7c776764c149940e5ae7b0818a3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-6d0ea4ff7dd3c224f93c0949c6218e7b
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-6d0ea4ff7dd3c224f93c0949c6218e7b
     projectPath: Temp\UnityTempFile-6d0ea4ff7dd3c224f93c0949c6218e7b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-6dc8fb6d3e87f9b49b0b620d9bc0e993
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-6dc8fb6d3e87f9b49b0b620d9bc0e993
     projectPath: Temp\UnityTempFile-6dc8fb6d3e87f9b49b0b620d9bc0e993
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-6fda2a22e4e97a743a614eeba0dbe979
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-6fda2a22e4e97a743a614eeba0dbe979
     projectPath: Temp\UnityTempFile-6fda2a22e4e97a743a614eeba0dbe979
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7644ae70161151345973d5b8dc3a902d
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-7644ae70161151345973d5b8dc3a902d
-    projectPath: Temp\UnityTempFile-7644ae70161151345973d5b8dc3a902d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-784a49fdb3b1ff34d8a9f6023f615442
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-784a49fdb3b1ff34d8a9f6023f615442
-    projectPath: Temp\UnityTempFile-784a49fdb3b1ff34d8a9f6023f615442
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1112,35 +794,23 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-79a0b225c76640c42956854c53995f0e
     projectPath: Temp\UnityTempFile-79a0b225c76640c42956854c53995f0e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7b4385be03addbe45b9c09dcfdd586c4
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-7b4385be03addbe45b9c09dcfdd586c4
-    projectPath: Temp\UnityTempFile-7b4385be03addbe45b9c09dcfdd586c4
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Temp\UnityTempFile-7b9a1f60882a1b84b8a5bf6f84803cfb
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-7b9a1f60882a1b84b8a5bf6f84803cfb
     projectPath: Temp\UnityTempFile-7b9a1f60882a1b84b8a5bf6f84803cfb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-7ef476ccaa32aef4f8b580d8cebaa129
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-7ef476ccaa32aef4f8b580d8cebaa129
     projectPath: Temp\UnityTempFile-7ef476ccaa32aef4f8b580d8cebaa129
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-87d38a0b002db3a419eceb2dfafffbc0
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-87d38a0b002db3a419eceb2dfafffbc0
     projectPath: Temp\UnityTempFile-87d38a0b002db3a419eceb2dfafffbc0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-87d48f99a2bb0bd4bb3138009427f35b
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-87d48f99a2bb0bd4bb3138009427f35b
-    projectPath: Temp\UnityTempFile-87d48f99a2bb0bd4bb3138009427f35b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1148,17 +818,11 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-87e9203fca0c7b84c993f69b97cbb72a
     projectPath: Temp\UnityTempFile-87e9203fca0c7b84c993f69b97cbb72a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-8a0f488e93f967e45bb8f71e26a53539
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-8a0f488e93f967e45bb8f71e26a53539
     projectPath: Temp\UnityTempFile-8a0f488e93f967e45bb8f71e26a53539
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-8e2e79f331bb9c347a00ef60498a0948
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-8e2e79f331bb9c347a00ef60498a0948
-    projectPath: Temp\UnityTempFile-8e2e79f331bb9c347a00ef60498a0948
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1166,35 +830,11 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-98da2ccab6de83049b81d6c7f4fa083c
     projectPath: Temp\UnityTempFile-98da2ccab6de83049b81d6c7f4fa083c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9ed74da159c660a4db84963c9b29fc5f
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-9ed74da159c660a4db84963c9b29fc5f
-    projectPath: Temp\UnityTempFile-9ed74da159c660a4db84963c9b29fc5f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-a6331cfb64638444d84f492da67edd49
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-a6331cfb64638444d84f492da67edd49
-    projectPath: Temp\UnityTempFile-a6331cfb64638444d84f492da67edd49
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-a6e9b0bb2962d9f4782ead0224ea2f38
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-a6e9b0bb2962d9f4782ead0224ea2f38
-    projectPath: Temp\UnityTempFile-a6e9b0bb2962d9f4782ead0224ea2f38
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Temp\UnityTempFile-a81b0d8a66d9375488df43eb13fd467f
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-a81b0d8a66d9375488df43eb13fd467f
     projectPath: Temp\UnityTempFile-a81b0d8a66d9375488df43eb13fd467f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ac8b7cddd5a771049a12e8bd03dadf0b
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-ac8b7cddd5a771049a12e8bd03dadf0b
-    projectPath: Temp\UnityTempFile-ac8b7cddd5a771049a12e8bd03dadf0b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1202,41 +842,29 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-ad3a15c083132e44eb796c45a9d82248
     projectPath: Temp\UnityTempFile-ad3a15c083132e44eb796c45a9d82248
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-b00ee83c4dee43845bd767a5f8796fa6
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-b00ee83c4dee43845bd767a5f8796fa6
     projectPath: Temp\UnityTempFile-b00ee83c4dee43845bd767a5f8796fa6
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-bb64f785555ef0145a9c6ba5a751baca
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-bb64f785555ef0145a9c6ba5a751baca
     projectPath: Temp\UnityTempFile-bb64f785555ef0145a9c6ba5a751baca
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-cba2a887d4b8c7042aa814938172dab0
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-cba2a887d4b8c7042aa814938172dab0
     projectPath: Temp\UnityTempFile-cba2a887d4b8c7042aa814938172dab0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-cf60e7115b81ad64598b90bcd9a8a3d4
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-cf60e7115b81ad64598b90bcd9a8a3d4
     projectPath: Temp\UnityTempFile-cf60e7115b81ad64598b90bcd9a8a3d4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d48e0e7c5c3870649b52e88079b56045
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-d48e0e7c5c3870649b52e88079b56045
-    projectPath: Temp\UnityTempFile-d48e0e7c5c3870649b52e88079b56045
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-d87e298aed2aaf643bac3e5da911c27f
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-d87e298aed2aaf643bac3e5da911c27f
-    projectPath: Temp\UnityTempFile-d87e298aed2aaf643bac3e5da911c27f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1244,35 +872,11 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-dbecb4f594bf10f4e9c2b5d5485fdd87
     projectPath: Temp\UnityTempFile-dbecb4f594bf10f4e9c2b5d5485fdd87
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\UnityTempFile-dc476ab6a16b044428587d4b623ced6e
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-dc476ab6a16b044428587d4b623ced6e
     projectPath: Temp\UnityTempFile-dc476ab6a16b044428587d4b623ced6e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-dfd0198e73a428d4bb072e6ccb8d08e9
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-dfd0198e73a428d4bb072e6ccb8d08e9
-    projectPath: Temp\UnityTempFile-dfd0198e73a428d4bb072e6ccb8d08e9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-e177288bd5b67ad40bf7092ff8609a26
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-e177288bd5b67ad40bf7092ff8609a26
-    projectPath: Temp\UnityTempFile-e177288bd5b67ad40bf7092ff8609a26
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-e864997f6d0f6f448a953e0674706aec
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-e864997f6d0f6f448a953e0674706aec
-    projectPath: Temp\UnityTempFile-e864997f6d0f6f448a953e0674706aec
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp\UnityTempFile-f4002a8040e58624eb8df0c4bd095f71
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-f4002a8040e58624eb8df0c4bd095f71
-    projectPath: Temp\UnityTempFile-f4002a8040e58624eb8df0c4bd095f71
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1280,17 +884,11 @@ MonoBehaviour:
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-f816fa22adef8b84faf82ed3f61ec8f3
     projectPath: Temp\UnityTempFile-f816fa22adef8b84faf82ed3f61ec8f3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f8f6b9e76ac52344898d3ba3be115e51
-    fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-f8f6b9e76ac52344898d3ba3be115e51
-    projectPath: Temp\UnityTempFile-f8f6b9e76ac52344898d3ba3be115e51
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Temp\UnityTempFile-fc1e806add96f534bb406786207438de
     fullPath: E:\Programming\UnityGames\Unity-game\Temp\UnityTempFile-fc1e806add96f534bb406786207438de
     projectPath: Temp\UnityTempFile-fc1e806add96f534bb406786207438de
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
