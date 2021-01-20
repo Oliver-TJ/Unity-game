@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\otj20\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\otj20\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Unity-game3.1389176513.00" t="ExcludeRecursive" />
+    <e p="C:\Users\otj20\OneDrive\Documents\GitHub\Unity-game3" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Checkpoint.cs" t="Include" />
+        <e p="CyberPunk_Blonde" t="Include">
+          <e p="Sprites" t="Include">
+            <e p="Egypt_Gladiators" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Break.cs" t="Include" />
+                <e p="GladiatorController.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="GameMaster.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Actions.cs" t="Include" />
+          <e p="AutoDestroy.cs" t="Include" />
+          <e p="camControl.cs" t="Include" />
+          <e p="DamageInteraction.cs" t="Include" />
+          <e p="RTSController.cs" t="Include" />
+          <e p="trajectory.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Unity-game3.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

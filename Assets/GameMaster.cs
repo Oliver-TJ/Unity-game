@@ -16,7 +16,7 @@ public class GameMaster : MonoBehaviour
         }
         else
         {
-            Destroy(gameobject);
+            Destroy(gameObject);
         }
     }
 }
