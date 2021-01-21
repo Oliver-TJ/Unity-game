@@ -97,10 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae1d12e72fd6d9f4cb344d2634517b69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
   explosion: {fileID: 5625462269575644701, guid: 6c7791fbb80a1a142aea68abe7d29da3,
     type: 3}
-  activeTime: 10
+  activeTime: 3
   tickerTime: 0
 --- !u!50 &-1441224921062581092
 Rigidbody2D:
