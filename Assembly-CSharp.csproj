@@ -55,10 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemyMoves.cs" />
      <Compile Include="Assets\Scripts\Actions.cs" />
      <Compile Include="Assets\Scripts\AutoDestroy.cs" />
      <Compile Include="Assets\Scripts\DamageInteraction.cs" />
+     <Compile Include="Assets\Scripts\EnemyMoves.cs" />
+     <Compile Include="Assets\Scripts\EnemyProjectileTrajectory.cs" />
      <Compile Include="Assets\Scripts\RTSController.cs" />
      <Compile Include="Assets\Scripts\camControl.cs" />
      <Compile Include="Assets\Scripts\trajectory.cs" />

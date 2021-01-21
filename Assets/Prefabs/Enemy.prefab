@@ -49,6 +49,9 @@ MonoBehaviour:
   speed: 4
   stoppingDistance: 6
   retreatDistance: 3
+  shotStartInterval: 3
+  projectile: {fileID: 1322879864840416416, guid: 1b00e658e6c650c4e8a605d52b229ad6,
+    type: 3}
   player: {fileID: 0}
 --- !u!212 &1838106226863896097
 SpriteRenderer:
