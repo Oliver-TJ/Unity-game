@@ -22,6 +22,6 @@
 - Potentially add multiplayer in future - Design to balance multiplayer 
 
 Jobs: 
-- Enemy design - Harrison and TJ 
+- Enviroment and interaction design - Harrison and TJ 
 - Player design - Isaac
-- Asset design - James 
+- Enemy design - James 
