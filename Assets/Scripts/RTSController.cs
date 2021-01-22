@@ -51,7 +51,6 @@ public class RTSController : MonoBehaviour
 
     void Fireball(int keyInd) {
         if (Input.GetKeyDown(keyset[keyInd])) {
-            // TODO: Instantiate pointer UI, updating depending on mouse position
             Vector2 pos = view.ScreenToWorldPoint(Input.mousePosition);
             abilityPos[keyInd] = new Vector3(pos.x, pos.y, 0);
             GameObject tc = Instantiate(aimIndicator, abilityPos[keyInd], Quaternion.identity);
@@ -62,7 +61,7 @@ public class RTSController : MonoBehaviour
             Vector2 dp = view.ScreenToWorldPoint(Input.mousePosition) - abilityPos[keyInd];
             abilityUI[keyInd][1].transform.rotation = Quaternion.Euler(0, 0, 360f*(float)Math.Atan2(-(double)dp.x, (double)dp.y) / (2*(float)Math.PI));
             if (dp.magnitude > 1.75) {
-                abilityUI[keyInd][1].transform.localScale = new Vector3(0.2f + 0.5f * (1 - (float)Math.Exp(-(dp.magnitude-1.8)/10)), 0.582f, 1);
+                abilityUI[keyInd][1].transform.localScale = new Vector3(0.2f + 0.65f * (1 - (float)Math.Exp(-(dp.magnitude-1.8)/10)), 0.582f, 1);
             } else {
                 abilityUI[keyInd][1].transform.localScale = new Vector3(0.2f, dp.magnitude / 1.8f * 0.582f, 1);
             }
