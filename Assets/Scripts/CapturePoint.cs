@@ -7,7 +7,7 @@ public class CapturePoint : Interactable
     public bool isCaptured = false;
     public float timeToCap = 10;
 
-    void Update(float timeToCap)
+    void Update()
     {
         if (playerInRange && timeToCap > 0)
         {
