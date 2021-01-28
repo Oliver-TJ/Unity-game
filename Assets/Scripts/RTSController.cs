@@ -35,7 +35,7 @@ public class RTSController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {        
         for (int i = 0; i < abilitySet.Length; i++) {
             abilitySet[i].DynamicInvoke(i);
         }

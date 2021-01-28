@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Actions : MonoBehaviour
+public class Actions : Shootable
 {
     [SerializeField] private Vector3 startPos; 
     [SerializeField] private float speed; 
+    [SerializeField] private GameObject[] respawnList; 
+    [SerializeField] private float maxHealth; 
     private Vector3 intention; 
     private Vector2[] movements; 
     private int moveIndex = 0; // remaining iterations (ri*20 = remaining time in milliseconds)
     private Rigidbody2D rb;
     private bool complete = true; 
-    Transform t; 
     // Start is called before the first frame update
     private void Start()
     {
@@ -19,9 +20,11 @@ public class Actions : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         t = gameObject.GetComponent<Transform>();
         rb.position = startPos; 
+        _respawnList = respawnList; 
+        health = maxHealth; 
+        _maxHealth = maxHealth; 
     }
 
-    // Update is called once per frame
     private void FixedUpdate()
     {
         if (!complete) 
