@@ -13,15 +13,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-01-18T11:43:25.963+00:00
-  initializedAtString: 2021-01-18T11:27:50.800+00:00
+  lastUpdatedAtString: 2021-01-28T13:25:32.739+00:00
+  initializedAtString: 2021-01-28T13:25:32.387+00:00
   localBranches:
   - name: main
     tracking: origin/main
+  - name: pr/5
+    tracking: github-desktop-ike-g/pr/5
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
   - name: upstream/main
+    tracking: '[None]'
+  - name: github-desktop-ike-g/main
+    tracking: '[None]'
+  - name: github-desktop-ike-g/temp
     tracking: '[None]'
   remotes:
   - name: origin
@@ -38,24 +44,41 @@ MonoBehaviour:
     host: 
     function: 0
     token: 
+  - name: github-desktop-ike-g
+    url: https://github.com/Ike-G/Unity-game.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
   localConfigBranches:
     keys:
     - main
+    - pr/5
     values:
     - name: main
       remote:
         name: origin
         url: https://github.com/gtfyds/Unity-game.git
       trackingBranch: main
+    - name: pr/5
+      remote:
+        name: github-desktop-ike-g
+        url: https://github.com/Ike-G/Unity-game.git
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
     - upstream
+    - github-desktop-ike-g
     subKeys:
     - Values:
       - HEAD
     - Values:
       - main
+    - Values:
+      - main
+      - temp
     subKeyValues:
     - Values:
       - name: HEAD
@@ -69,12 +92,26 @@ MonoBehaviour:
           name: upstream
           url: https://github.com/Harrrrison/Unity-game.git
         trackingBranch: 
+    - Values:
+      - name: main
+        remote:
+          name: github-desktop-ike-g
+          url: https://github.com/Ike-G/Unity-game.git
+        trackingBranch: 
+      - name: temp
+        remote:
+          name: github-desktop-ike-g
+          url: https://github.com/Ike-G/Unity-game.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
     - upstream
+    - github-desktop-ike-g
     values:
     - name: origin
       url: https://github.com/gtfyds/Unity-game.git
     - name: upstream
       url: https://github.com/Harrrrison/Unity-game.git
+    - name: github-desktop-ike-g
+      url: https://github.com/Ike-G/Unity-game.git

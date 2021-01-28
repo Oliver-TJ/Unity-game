@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-01-18T11:27:50.788+00:00
-  initializedAtString: 2021-01-18T11:27:06.541+00:00
+  lastUpdatedAtString: 2021-01-28T13:25:11.448+00:00
+  initializedAtString: 2021-01-28T13:25:11.448+00:00
   currentGitRemote:
-    name: origin
-    url: https://github.com/gtfyds/Unity-game.git
+    name: github-desktop-ike-g
+    url: https://github.com/Ike-G/Unity-game.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: main
-    tracking: origin/main
+    name: pr/5
+    tracking: github-desktop-ike-g/pr/5
   currentConfigBranch:
-    name: main
+    name: pr/5
     remote:
-      name: origin
-      url: https://github.com/gtfyds/Unity-game.git
+      name: github-desktop-ike-g
+      url: https://github.com/Ike-G/Unity-game.git
     trackingBranch: main
   currentConfigRemote:
-    name: origin
-    url: https://github.com/gtfyds/Unity-game.git
+    name: github-desktop-ike-g
+    url: https://github.com/Ike-G/Unity-game.git
   currentHead: 
