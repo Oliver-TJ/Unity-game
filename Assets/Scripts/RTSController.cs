@@ -15,7 +15,6 @@ public class RTSController : MonoBehaviour
     [SerializeField] private GameObject archers;
     [SerializeField] private GameObject highlightSquare;
     [SerializeField] private Camera view;
-    [SerializeField] private Grid grid;
     [SerializeField] private KeyCode[] keyset; 
     
     private Ability[] abilitySet; 

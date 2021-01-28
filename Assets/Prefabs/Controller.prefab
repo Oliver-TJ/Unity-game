@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5149438164017073281}
   m_Layer: 0
   m_Name: Controller
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +48,16 @@ MonoBehaviour:
   King: {fileID: 5149438164104194256}
   pathPointer: {fileID: 3974105879617176609, guid: 3096cf70d4affa840aa071fd107134f9,
     type: 3}
+  aimIndicator: {fileID: 7930665513517662028, guid: fd38d0fafa6cb074484624c100882875,
+    type: 3}
+  fireball: {fileID: 7101448276564547681, guid: e9e57b87bae1bf247ad56a845b604e40,
+    type: 3}
+  arrow: {fileID: 1775689636109401600, guid: 8775bdb8ba1024d449410a68f73d156c, type: 3}
+  archers: {fileID: 6990292769359313458, guid: 704f72baccf0fe14d9df61809bb22e95, type: 3}
+  highlightSquare: {fileID: 1448033417590614340, guid: e819acbe78788214493f59e0732a1f3b,
+    type: 3}
   view: {fileID: 5149438164528650213}
+  keyset: 71000000770000006500000072000000
 --- !u!1 &5149438164104194256
 GameObject:
   m_ObjectHideFlags: 0
@@ -64,7 +73,7 @@ GameObject:
   - component: {fileID: 5149438164104194257}
   m_Layer: 0
   m_Name: King
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,8 +85,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5149438164104194256}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.198683, y: 0.5421592, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5149438164017073286}
@@ -122,12 +131,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3d07de1154472f74da819d307181c9fa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 245bfb5b222552f4e8538623ff248f22, type: 3}
   m_Color: {r: 0, g: 0.4666667, b: 0.72156864, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.033333335, y: 0.033333335}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -172,7 +181,7 @@ PolygonCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 0.033333335, y: 0.033333335}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -199,6 +208,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPos: {x: 0, y: 0, z: 0}
   speed: 0.2
+  respawnList:
+  - {fileID: 2806681719108146559, guid: 113e7303815d06b49a6852ec469c6332, type: 3}
+  maxHealth: 500
 --- !u!1 &5149438164528650214
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +271,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
