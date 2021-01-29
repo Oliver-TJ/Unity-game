@@ -7,7 +7,7 @@ public class Actions : Shootable
     [SerializeField] private Vector3 startPos; 
     [SerializeField] private float speed; 
     [SerializeField] private GameObject[] respawnList; 
-    [SerializeField] private float maxHealth; 
+    [SerializeField] private float pMaxHealth; 
     private Transform t;
     private Vector3 intention; 
     private Vector2[] movements; 
@@ -22,6 +22,7 @@ public class Actions : Shootable
         rb = gameObject.GetComponent<Rigidbody2D>();
         t = gameObject.GetComponent<Transform>();
         rb.position = startPos;
+        maxHealth = pMaxHealth; 
         health = maxHealth; 
     }
 
