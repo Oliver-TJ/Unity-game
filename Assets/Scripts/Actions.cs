@@ -8,21 +8,21 @@ public class Actions : Shootable
     [SerializeField] private float speed; 
     [SerializeField] private GameObject[] respawnList; 
     [SerializeField] private float maxHealth; 
+    private Transform t;
     private Vector3 intention; 
     private Vector2[] movements; 
     private int moveIndex = 0; // remaining iterations (ri*20 = remaining time in milliseconds)
     private Rigidbody2D rb;
     private bool complete = true; 
+    private int checkpoint = 0;
     // Start is called before the first frame update
     private void Start()
     {
         intention = startPos; 
         rb = gameObject.GetComponent<Rigidbody2D>();
         t = gameObject.GetComponent<Transform>();
-        rb.position = startPos; 
-        _respawnList = respawnList; 
+        rb.position = startPos;
         health = maxHealth; 
-        _maxHealth = maxHealth; 
     }
 
     private void FixedUpdate()
@@ -57,5 +57,11 @@ public class Actions : Shootable
         moveIndex = 0; 
         complete = false; 
         intention = intent;  
+    }
+
+    override protected void Death() { 
+        t.position = respawnList[checkpoint].transform.position;
+        health = maxHealth;
+        rb.velocity = Vector2.zero; 
     }
 }
