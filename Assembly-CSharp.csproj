@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\DamageInteraction.cs" />
      <Compile Include="Assets\Scripts\EnemyMoves.cs" />
      <Compile Include="Assets\Scripts\EnemyProjectileTrajectory.cs" />
+     <Compile Include="Assets\Scripts\GiveUp.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\Play.cs" />
      <Compile Include="Assets\Scripts\Quit.cs" />

@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &738366914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1215099148178124032, guid: 8edbae655d3920945978d30deffe4ecf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1215099148334332583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &954203024
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,7 +193,7 @@ PrefabInstance:
     - target: {fileID: 8571127622724714084, guid: 704f72baccf0fe14d9df61809bb22e95,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -230.00879
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8571127622724714084, guid: 704f72baccf0fe14d9df61809bb22e95,
         type: 3}
@@ -906,6 +918,7 @@ MonoBehaviour:
   playerInRange: 0
   isCaptured: 0
   timeToCap: 10
+  slider: {fileID: 738366914}
 --- !u!58 &8089098567272957974
 CircleCollider2D:
   m_ObjectHideFlags: 0

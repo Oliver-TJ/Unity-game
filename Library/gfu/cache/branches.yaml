@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-01-28T21:35:44.051+00:00
-  initializedAtString: 2021-01-28T20:54:12.303+00:00
+  lastUpdatedAtString: 2021-01-29T14:08:37.691+00:00
+  initializedAtString: 2021-01-29T14:08:37.672+00:00
   localBranches:
   - name: main
     tracking: origin/main
@@ -22,6 +22,8 @@ MonoBehaviour:
     tracking: github-desktop-ike-g/pr/5
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/main
     tracking: '[None]'
   - name: upstream/main
     tracking: '[None]'
@@ -74,6 +76,7 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
+      - main
     - Values:
       - main
     - Values:
@@ -82,6 +85,11 @@ MonoBehaviour:
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/gtfyds/Unity-game.git
+        trackingBranch: 
+      - name: main
         remote:
           name: origin
           url: https://github.com/gtfyds/Unity-game.git

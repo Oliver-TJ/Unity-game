@@ -12,11 +12,11 @@ public class CapturePoint : Interactable
 
     void Update()
     {
-        slider.value += _duration;
+        slider.value = _duration;
         if (playerInRange && timeToCap > 0)
         {
             timeToCap -= Time.deltaTime;
-            _duration = Time.deltaTime/10;
+            _duration += Time.deltaTime/10;
         }
 
         if (!playerInRange)
