@@ -210,7 +210,7 @@ MonoBehaviour:
   speed: 0.2
   respawnList:
   - {fileID: 2806681719108146559, guid: 113e7303815d06b49a6852ec469c6332, type: 3}
-  maxHealth: 500
+  pMaxHealth: 500
 --- !u!1 &5149438164528650214
 GameObject:
   m_ObjectHideFlags: 0
