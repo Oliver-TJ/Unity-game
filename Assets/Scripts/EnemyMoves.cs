@@ -8,12 +8,11 @@ public class EnemyMoves : MonoBehaviour
     [SerializeField] float stoppingDistance;
     [SerializeField] float retreatDistance;
     [SerializeField] float findRange;
-
     private float shotInterval;
     [SerializeField] float shotStartInterval;
-
     [SerializeField] GameObject projectile;
     [SerializeField] Transform player;
+    private bool detected;
 
     void Start()
     {
@@ -25,7 +24,13 @@ public class EnemyMoves : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector2.Distance(transform.position, player.position) < findRange){
+	    if (detected == false && Vector2.Distance(transform.position, player.position) < findRange)
+	    {
+		    detected = true;
+	    }
+	    
+        if (detected == true)
+			{
 			if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
         	{
             	transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
