@@ -38,10 +38,10 @@ public class EnemyHits : MonoBehaviour
         {
             if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
             {
-                targetPos = new Vector2(player.position - transform.position);
-                rb.MovePosition(transform.position + targetPos * speed * Time.deltaTime);
+                targetPos = player.position - transform.position;
+                rb.MovePosition((Vector2)transform.position + targetPos * speed * Time.deltaTime);
                 
-                if (primed = false)
+                if (primed == false)
                 {
                     primed = true;
                 }
