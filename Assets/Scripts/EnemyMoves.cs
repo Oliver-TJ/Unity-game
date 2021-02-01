@@ -37,7 +37,7 @@ public class EnemyMoves : MonoBehaviour
         	{
             	transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
         	}
-		
+
         	if (shotInterval <= 0)
         	{
             	Instantiate(projectile, transform.position, Quaternion.identity);
