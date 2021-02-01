@@ -21,6 +21,7 @@ public class EnemyHits : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         Vector2 tempPos = new Vector2(transform.position.x, transform.position.y);
+        rb = gameObject.GetComponent<Rigidbody2D>();
         detected = false;
         primed = true;
     }
@@ -34,7 +35,7 @@ public class EnemyHits : MonoBehaviour
         {
             detected = true;
         }
-
+        else
         {
             if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
             {
