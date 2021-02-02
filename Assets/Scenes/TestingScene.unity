@@ -207,12 +207,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Controller
       objectReference: {fileID: 0}
-    - target: {fileID: 5149438164017073281, guid: 2824a519e973b6446868cb4be367da77,
-        type: 3}
-      propertyPath: giants
-      value: 
-      objectReference: {fileID: 6461110229102346562, guid: 4361809575dbd9748b4e167eeca27bce,
-        type: 3}
     - target: {fileID: 5149438164017073286, guid: 2824a519e973b6446868cb4be367da77,
         type: 3}
       propertyPath: m_RootOrder

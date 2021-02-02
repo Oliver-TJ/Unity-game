@@ -23,9 +23,7 @@ public class ExplosionDamage : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col) {
         Shootable s = col.gameObject.GetComponent<Shootable>(); 
-        if (s != null) {
+        if (s != null) 
             s.takeDamage(10); 
-        }
     }
-
 }
