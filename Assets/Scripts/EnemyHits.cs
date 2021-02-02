@@ -8,9 +8,8 @@ public class EnemyHits : MonoBehaviour
     [SerializeField] float findRange;
     [SerializeField] Transform player;
     [SerializeField] float stoppingDistance;
-    [SerializeField] float dashSpeed;
-    private Vector2 tempPos;
-    private Vector2 targetPos;
+    [SerializeField] float dashSpeed; 
+    [SerializeField] GameObject explosion;
     private Rigidbody2D rb;
     private bool detected;
     private bool primed;
@@ -20,8 +19,6 @@ public class EnemyHits : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        Vector2 tempPos = new Vector2(transform.position.x, transform.position.y);
-        rb = gameObject.GetComponent<Rigidbody2D>();
         detected = false;
         primed = true;
     }
@@ -57,8 +54,15 @@ public class EnemyHits : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D other)
     {
-        primed = false;
-        rb.velocity = new Vector2(0.0f, 0.0f);
-        rb.angularVelocity = (0.0f);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Explode();
+        }
     }
+    private void Explode()
+    {
+        Destroy(gameObject);
+        Instantiate(explosion, transform.position, Quaternion.identity);
+    }
+    
 }
