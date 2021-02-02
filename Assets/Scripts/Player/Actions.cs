@@ -8,6 +8,7 @@ public class Actions : Shootable
     [SerializeField] private float speed; 
     [SerializeField] private GameObject[] respawnList; 
     [SerializeField] private float pMaxHealth; 
+    [SerializeField] private float dashSpeed; 
     private Transform t;
     private Vector3 intention; 
     private Vector2[] movements; 
@@ -36,6 +37,7 @@ public class Actions : Shootable
         if (moveIndex < movements.Length) {
             // rb.AddForce(movements[moveIndex]);
             rb.velocity = 50*movements[moveIndex];
+            Debug.Log(rb.velocity);
             // t.Translate(movements[moveIndex]);
             moveIndex++;
         } else {
@@ -45,19 +47,20 @@ public class Actions : Shootable
         }
     }
 
-    public void setIntent(Vector2 intent) {
+    public void setIntent(Vector2 intent, bool dashing = false) {
         // Determine the sequence of movements 
+        float ts = dashing ? dashSpeed : speed; 
         float m = (intent-rb.position).magnitude;
-        int ti = (int)(m/speed)+1; // Gets the number of iterations (final iteration may be 0,0)
+        int ti = dashing ? 5 : (int)(m/ts)+1; // Gets the number of iterations (final iteration may be 0,0)
         Vector2 s = (intent - rb.position) / m; // Unit direction (s.magnitude = 1)
         movements = new Vector2[ti]; 
-        movements[ti-1] = s*speed*(m/speed-(ti-1));
+        movements[ti-1] = dashing? Vector2.zero : s*ts*(m/ts-(ti-1));
         for (int i = 0; i < ti-1; i++) {
-            movements[i] = s*speed;
+            movements[i] = s*ts;
         }
         moveIndex = 0; 
         complete = false; 
-        intention = intent;  
+        intention = intent; 
     }
 
     override protected void Death() { 

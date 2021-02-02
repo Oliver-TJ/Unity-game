@@ -4,6 +4,7 @@ using System;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using System.Globalization;
 
 public class RTSController : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class RTSController : MonoBehaviour
     [SerializeField] private float blockReq; 
     [SerializeField] private float maxMana; 
     [SerializeField] private float manaGainRate; 
+    [SerializeField] private float maxDashCD; 
     
     private Ability[] abilitySet; 
     private Vector3[] abilityPos; 
@@ -31,8 +33,13 @@ public class RTSController : MonoBehaviour
     private Actions kingMethods; 
     private Rigidbody2D kingRB;
     private float mana; 
-    public float getMana {
+    private float dashCD; 
+    public int getMana {
         get { return Mathf.FloorToInt(mana); }
+    }
+
+    public string getDashCD { 
+        get { return Mathf.FloorToInt((maxDashCD - dashCD) / 3).ToString()+"\t" + (dashCD).ToString("F1", CultureInfo.CurrentCulture); }
     }
     // Start is called before the first frame update
     void Start()
@@ -43,6 +50,8 @@ public class RTSController : MonoBehaviour
         abilityPos = new Vector3[] { Vector3.zero, Vector3.zero, Vector3.zero, Vector3.zero };
         abilityUI = new List<GameObject>[] { new List<GameObject>(), new List<GameObject>(), new List<GameObject>(), new List<GameObject>() };
         mana = maxMana; 
+        dashCD = 0; 
+        
     }
 
     // Update is called once per frame
@@ -61,10 +70,17 @@ public class RTSController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space)) {
             view.transform.Translate(kingRB.position - (Vector2)view.transform.position);
         }
+
+        if (Input.GetKeyDown(KeyCode.F) && dashCD <= maxDashCD * 3 / 4) {
+            Vector2 intent = (Vector2)view.ScreenToWorldPoint(Input.mousePosition); 
+            kingMethods.setIntent(intent, true);
+            dashCD += maxDashCD / 4; 
+        }
     }
 
     void FixedUpdate() {
         mana = Math.Min(mana+Time.fixedDeltaTime*manaGainRate, maxMana);
+        dashCD = Math.Max(dashCD-Time.fixedDeltaTime, 0);
     }
 
     delegate void Ability(int keyInd); 

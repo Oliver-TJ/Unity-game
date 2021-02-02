@@ -257,6 +257,7 @@ MonoBehaviour:
   blockReq: 150
   maxMana: 500
   manaGainRate: 50
+  maxDashCD: 12
 --- !u!1 &5149438164104194256
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +411,7 @@ MonoBehaviour:
   respawnList:
   - {fileID: 2806681719108146559, guid: 113e7303815d06b49a6852ec469c6332, type: 3}
   pMaxHealth: 500
+  dashSpeed: 1
 --- !u!1 &5149438164528650214
 GameObject:
   m_ObjectHideFlags: 0
