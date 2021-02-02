@@ -29,25 +29,22 @@ public class EnemyHits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 tempPos = new Vector2(transform.position.x, transform.position.y);
 
         if (detected == false && Vector2.Distance(transform.position, player.position) < findRange)
         {
             detected = true;
         }
-        else
+
+        if (detected == true)
         {
             if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
             {
-                targetPos = player.position - transform.position;
-                rb.MovePosition((Vector2)transform.position + targetPos * speed * Time.deltaTime);
-                
+                transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
                 if (primed == false)
                 {
                     primed = true;
                 }
             }
-            /*
             else
             {
                 if (primed == true && Vector2.Distance(transform.position, player.position) <= stoppingDistance)
@@ -55,9 +52,9 @@ public class EnemyHits : MonoBehaviour
                     transform.position = Vector2.MoveTowards(transform.position, player.position, dashSpeed * Time.deltaTime);
                 }
             }
-            */
         }
     }
+    
     void OnCollisionEnter2D(Collision2D other)
     {
         primed = false;

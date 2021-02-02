@@ -97,7 +97,6 @@ public class RTSController : MonoBehaviour
                 abilityUI[keyInd][1] = Instantiate(highlightSquare, pos, Quaternion.identity); // Set current tile to be highlighted
                 abilityUI[keyInd][0].transform.position = pos;
                 abilityPos[keyInd] = pos; 
-                Debug.Log($"Created tile at {pos}");
             }
         }
 
