@@ -41,6 +41,10 @@ public class RTSController : MonoBehaviour
     public string getDashCD { 
         get { return Mathf.FloorToInt((maxDashCD - dashCD) / 3).ToString()+"\t" + (dashCD).ToString("F1", CultureInfo.CurrentCulture); }
     }
+
+    public string getHealth {
+        get { return kingMethods.getHealth.ToString(); }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -51,7 +55,6 @@ public class RTSController : MonoBehaviour
         abilityUI = new List<GameObject>[] { new List<GameObject>(), new List<GameObject>(), new List<GameObject>(), new List<GameObject>() };
         mana = maxMana; 
         dashCD = 0; 
-        
     }
 
     // Update is called once per frame

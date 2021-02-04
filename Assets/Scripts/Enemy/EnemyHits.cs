@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHits : MonoBehaviour
+public class EnemyHits : Shootable
 {
     [SerializeField] float speed;
     [SerializeField] float findRange;
@@ -10,6 +10,7 @@ public class EnemyHits : MonoBehaviour
     [SerializeField] float stoppingDistance;
     [SerializeField] float dashSpeed; 
     [SerializeField] GameObject explosion;
+	[SerializeField] private float pMaxHealth;
     private Rigidbody2D rb;
     private bool detected;
     private bool primed;
@@ -21,6 +22,8 @@ public class EnemyHits : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         detected = false;
         primed = true;
+		maxHealth = pMaxHealth; 
+        health = maxHealth; 
     }
 
     // Update is called once per frame
@@ -54,8 +57,11 @@ public class EnemyHits : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (!other.gameObject.CompareTag("Enemy"))
         {
+            Shootable md = other.gameObject.GetComponent<Shootable>();
+            if (md != null) 
+                md.takeDamage(60);
             Explode();
         }
     }
@@ -64,5 +70,9 @@ public class EnemyHits : MonoBehaviour
         Destroy(gameObject);
         Instantiate(explosion, transform.position, Quaternion.identity);
     }
-    
+
+    override protected void Death() { 
+	    Destroy(gameObject, 0);
+    }
+	
 }

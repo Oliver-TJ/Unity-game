@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMoves : MonoBehaviour
+public class EnemyMoves : Shootable
 {
     [SerializeField] float speed;
     [SerializeField] float stoppingDistance;
     [SerializeField] float retreatDistance;
     [SerializeField] float findRange;
+    [SerializeField] private float pMaxHealth; 
     private float shotInterval;
     [SerializeField] float shotStartInterval;
     [SerializeField] GameObject projectile;
@@ -19,6 +20,10 @@ public class EnemyMoves : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         shotInterval = shotStartInterval;
+        
+        maxHealth = pMaxHealth; 
+        
+        health = maxHealth; 
     }
 
     // Update is called once per frame
@@ -53,5 +58,10 @@ public class EnemyMoves : MonoBehaviour
             	shotInterval -= Time.deltaTime;
         	}
 		}
+    }
+    
+    override protected void Death()
+    {
+	    Destroy(gameObject, 0);
     }
 }
