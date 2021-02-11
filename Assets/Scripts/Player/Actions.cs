@@ -2,26 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Actions : MonoBehaviour
+public class Actions : Shootable
 {
     [SerializeField] private Vector3 startPos; 
     [SerializeField] private float speed; 
+    [SerializeField] private GameObject[] respawnList; 
+    [SerializeField] private float pMaxHealth; 
+    [SerializeField] private float dashSpeed; 
+    private Transform t;
     private Vector3 intention; 
     private Vector2[] movements; 
     private int moveIndex = 0; // remaining iterations (ri*20 = remaining time in milliseconds)
     private Rigidbody2D rb;
     private bool complete = true; 
-    Transform t; 
+    private int checkpoint = 0;
     // Start is called before the first frame update
     private void Start()
     {
         intention = startPos; 
         rb = gameObject.GetComponent<Rigidbody2D>();
         t = gameObject.GetComponent<Transform>();
-        rb.position = startPos; 
+        rb.position = startPos;
+        maxHealth = pMaxHealth; 
+        health = maxHealth; 
     }
 
-    // Update is called once per frame
     private void FixedUpdate()
     {
         if (!complete) 
@@ -32,6 +37,7 @@ public class Actions : MonoBehaviour
         if (moveIndex < movements.Length) {
             // rb.AddForce(movements[moveIndex]);
             rb.velocity = 50*movements[moveIndex];
+            Debug.Log(rb.velocity);
             // t.Translate(movements[moveIndex]);
             moveIndex++;
         } else {
@@ -41,18 +47,25 @@ public class Actions : MonoBehaviour
         }
     }
 
-    public void setIntent(Vector2 intent) {
+    public void setIntent(Vector2 intent, bool dashing = false) {
         // Determine the sequence of movements 
+        float ts = dashing ? dashSpeed : speed; 
         float m = (intent-rb.position).magnitude;
-        int ti = (int)(m/speed)+1; // Gets the number of iterations (final iteration may be 0,0)
+        int ti = dashing ? 5 : (int)(m/ts)+1; // Gets the number of iterations (final iteration may be 0,0)
         Vector2 s = (intent - rb.position) / m; // Unit direction (s.magnitude = 1)
         movements = new Vector2[ti]; 
-        movements[ti-1] = s*speed*(m/speed-(ti-1));
+        movements[ti-1] = dashing? Vector2.zero : s*ts*(m/ts-(ti-1));
         for (int i = 0; i < ti-1; i++) {
-            movements[i] = s*speed;
+            movements[i] = s*ts;
         }
         moveIndex = 0; 
         complete = false; 
-        intention = intent;  
+        intention = intent; 
+    }
+
+    override protected void Death() { 
+        t.position = respawnList[checkpoint].transform.position;
+        health = maxHealth;
+        rb.velocity = Vector2.zero; 
     }
 }
