@@ -14,7 +14,10 @@ GameObject:
   - component: {fileID: 1515825282693869384}
   - component: {fileID: 6877967986525471082}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 2460407466325804491}
+=======
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
 =======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
   m_Layer: 0
@@ -136,6 +139,7 @@ CircleCollider2D:
   serializedVersion: 2
   m_Radius: 0.3020501
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &2460407466325804491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,5 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   precision: 12
   king: {fileID: 0}
+=======
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
 =======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
