@@ -332,19 +332,41 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  m_Sprite: {fileID: 21300000, guid: 245bfb5b222552f4e8538623ff248f22, type: 3}
+=======
+>>>>>>> parent of 12edcf9a (soundtrack)
   m_Sprite: {fileID: 21300000, guid: 3d07de1154472f74da819d307181c9fa, type: 3}
 =======
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 245bfb5b222552f4e8538623ff248f22, type: 3}
 >>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
+=======
+  m_Sprite: {fileID: 21300000, guid: 3d07de1154472f74da819d307181c9fa, type: 3}
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
+>>>>>>> parent of 12edcf9a (soundtrack)
   m_Color: {r: 0, g: 0.4666667, b: 0.72156864, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  m_Size: {x: 1, y: 1}
+=======
+>>>>>>> parent of 12edcf9a (soundtrack)
   m_Size: {x: 0.033333335, y: 0.033333335}
 =======
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
 >>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
+=======
+  m_Size: {x: 0.033333335, y: 0.033333335}
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
+>>>>>>> parent of 12edcf9a (soundtrack)
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -390,10 +412,21 @@ PolygonCollider2D:
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
     newSize: {x: 0.033333335, y: 0.033333335}
 =======
     newSize: {x: 1, y: 1}
 >>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
+=======
+<<<<<<< HEAD
+    newSize: {x: 1, y: 1}
+=======
+    newSize: {x: 0.033333335, y: 0.033333335}
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
+=======
+    newSize: {x: 0.033333335, y: 0.033333335}
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
+>>>>>>> parent of 12edcf9a (soundtrack)
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -421,12 +454,23 @@ MonoBehaviour:
   startPos: {x: 0, y: 0, z: 0}
   speed: 0.2
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> parent of 12edcf9a (soundtrack)
   respawnList:
   - {fileID: 2806681719108146559, guid: 113e7303815d06b49a6852ec469c6332, type: 3}
   pMaxHealth: 500
   dashSpeed: 1
+<<<<<<< HEAD
 >>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
+=======
+=======
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
+=======
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
+>>>>>>> parent of 12edcf9a (soundtrack)
 --- !u!1 &5149438164528650214
 GameObject:
   m_ObjectHideFlags: 0
