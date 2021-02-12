@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageInteraction : MonoBehaviour
+public class TESTHITS : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

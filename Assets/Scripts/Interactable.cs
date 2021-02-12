@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 public class Interactable : MonoBehaviour
 {
@@ -16,6 +15,7 @@ public class Interactable : MonoBehaviour
         {
             //context.Raise();
             playerInRange = true;
+
         }
 
     }
