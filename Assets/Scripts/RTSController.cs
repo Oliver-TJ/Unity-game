@@ -4,7 +4,6 @@ using System;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using System.Globalization;
 
 public class RTSController : MonoBehaviour
 {
@@ -14,47 +13,24 @@ public class RTSController : MonoBehaviour
     [SerializeField] private GameObject fireball;
     [SerializeField] private GameObject arrow;
     [SerializeField] private GameObject archers;
-    [SerializeField] private GameObject giants; 
-    [SerializeField] private GameObject block; 
     [SerializeField] private GameObject highlightSquare;
     [SerializeField] private Camera view;
+    [SerializeField] private Grid grid;
     [SerializeField] private KeyCode[] keyset; 
-    [SerializeField] private float fireballReq; 
-    [SerializeField] private float archerReq;
-    [SerializeField] private float giantReq; 
-    [SerializeField] private float blockReq; 
-    [SerializeField] private float maxMana; 
-    [SerializeField] private float manaGainRate; 
-    [SerializeField] private float maxDashCD; 
     
     private Ability[] abilitySet; 
     private Vector3[] abilityPos; 
     private List<GameObject>[] abilityUI;
     private Actions kingMethods; 
     private Rigidbody2D kingRB;
-    private float mana; 
-    private float dashCD; 
-    public int getMana {
-        get { return Mathf.FloorToInt(mana); }
-    }
-
-    public string getDashCD { 
-        get { return Mathf.FloorToInt((maxDashCD - dashCD) / 3).ToString()+"\t" + (dashCD).ToString("F1", CultureInfo.CurrentCulture); }
-    }
-
-    public string getHealth {
-        get { return kingMethods.getHealth.ToString(); }
-    }
     // Start is called before the first frame update
     void Start()
     {
         kingMethods = King.GetComponent<Actions>();
         kingRB = King.GetComponent<Rigidbody2D>();
-        abilitySet = new Ability[] { Fireball, Archers, Giants, Block };
-        abilityPos = new Vector3[] { Vector3.zero, Vector3.zero, Vector3.zero, Vector3.zero };
-        abilityUI = new List<GameObject>[] { new List<GameObject>(), new List<GameObject>(), new List<GameObject>(), new List<GameObject>() };
-        mana = maxMana; 
-        dashCD = 0; 
+        abilitySet = new Ability[] { Fireball, Archers };
+        abilityPos = new Vector3[] { Vector3.zero, Vector3.zero };
+        abilityUI = new List<GameObject>[] { new List<GameObject>(), new List<GameObject>() };
     }
 
     // Update is called once per frame
@@ -73,17 +49,6 @@ public class RTSController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space)) {
             view.transform.Translate(kingRB.position - (Vector2)view.transform.position);
         }
-
-        if (Input.GetKeyDown(KeyCode.F) && dashCD <= maxDashCD * 3 / 4) {
-            Vector2 intent = (Vector2)view.ScreenToWorldPoint(Input.mousePosition); 
-            kingMethods.setIntent(intent, true);
-            dashCD += maxDashCD / 4; 
-        }
-    }
-
-    void FixedUpdate() {
-        mana = Math.Min(mana+Time.fixedDeltaTime*manaGainRate, maxMana);
-        dashCD = Math.Max(dashCD-Time.fixedDeltaTime, 0);
     }
 
     delegate void Ability(int keyInd); 
@@ -107,23 +72,20 @@ public class RTSController : MonoBehaviour
         }
 
         if (Input.GetKeyUp(keyset[keyInd])) {
-            if (mana >= fireballReq) {
-                Vector2 dp = view.ScreenToWorldPoint(Input.mousePosition) - abilityPos[keyInd];
-                Instantiate(fireball, abilityPos[keyInd], Quaternion.Euler(0, 0, 360f*(float)Math.Atan2(-(double)dp.x, (double)dp.y) / (2*(float)Math.PI)));
-                mana -= fireballReq;
-            }
+            Vector2 dp = view.ScreenToWorldPoint(Input.mousePosition) - abilityPos[keyInd];
+            Instantiate(fireball, abilityPos[keyInd], Quaternion.Euler(0, 0, 360f*(float)Math.Atan2(-(double)dp.x, (double)dp.y) / (2*(float)Math.PI)));
             foreach (GameObject g in abilityUI[keyInd]) {
                 Destroy(g);
             }
-            
         }
     }
 
-    void unitSpawning(int keyInd, GameObject g, float manaReq) {
+    void Archers(int keyInd)
+    {
         if (Input.GetKeyDown(keyset[keyInd])) {
             abilityPos[keyInd] = view.ScreenToWorldPoint(Input.mousePosition);
             abilityPos[keyInd] = new Vector3((float)Math.Floor(abilityPos[keyInd].x)+0.5f, (float)Math.Floor(abilityPos[keyInd].y)+0.5f, 0);
-            GameObject a = Instantiate(g, abilityPos[keyInd], Quaternion.identity);
+            GameObject a = Instantiate(archers, abilityPos[keyInd], Quaternion.identity);
             GameObject b = Instantiate(highlightSquare, abilityPos[keyInd], Quaternion.identity);
             abilityUI[keyInd] = new List<GameObject>() { a, b };
 
@@ -136,41 +98,17 @@ public class RTSController : MonoBehaviour
                 abilityUI[keyInd][1] = Instantiate(highlightSquare, pos, Quaternion.identity); // Set current tile to be highlighted
                 abilityUI[keyInd][0].transform.position = pos;
                 abilityPos[keyInd] = pos; 
+                Debug.Log($"Created tile at {pos}");
             }
         }
 
         if (Input.GetKeyUp(keyset[keyInd]))
         {
-            if (mana >= manaReq) {
-                Vector3 pos = view.ScreenToWorldPoint(Input.mousePosition); // Get current mouse position 
-                pos = new Vector3((float)Math.Floor(pos.x)+0.5f, (float)Math.Floor(pos.y)+0.5f, 0); 
-                Unit s = abilityUI[keyInd][0].GetComponent<Unit>();
-                s.initialise();
-                mana -= manaReq;
-            } else {
-                Destroy(abilityUI[keyInd][0]);
-            }
-            Destroy(abilityUI[keyInd][1]);
-        }
-    }
-    void Archers(int keyInd) {
-        unitSpawning(keyInd, archers, archerReq);
-    }
-
-    void Giants(int keyInd) {
-        unitSpawning(keyInd, giants, giantReq);
-    }
-
-    void Block(int keyInd) {
-        if (Input.GetKey(keyset[keyInd]) && mana >= blockReq) {
-            Vector3 pos = view.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 pos = view.ScreenToWorldPoint(Input.mousePosition); // Get current mouse position 
             pos = new Vector3((float)Math.Floor(pos.x)+0.5f, (float)Math.Floor(pos.y)+0.5f, 0); 
-            List<Collider2D> c = new List<Collider2D>();
-            int n = Physics2D.OverlapCircle(pos, 0.2f, new ContactFilter2D().NoFilter(), c);
-            if (n == 0 || !c[0].gameObject.GetComponent<Rigidbody2D>().isKinematic) {
-                Instantiate(block, pos, Quaternion.identity);
-                mana -= blockReq; 
-            }
+            Destroy(abilityUI[keyInd][1]);
+            ArcherSpawning s = abilityUI[keyInd][0].GetComponent<ArcherSpawning>();
+            s.initialise();
         }
     }
 }

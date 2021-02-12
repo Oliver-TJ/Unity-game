@@ -1,3 +1,3 @@
 # Unity Game
 
-Blah blah blah this has nothing in it yet
+This is a single-player RTS game that intends to combine the free, pathing-based movement style with the 
