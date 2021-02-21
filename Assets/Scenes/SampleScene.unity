@@ -122,13 +122,6 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
->>>>>>> parent of 12edcf9a (soundtrack)
 --- !u!114 &738366914 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1215099148178124032, guid: 8edbae655d3920945978d30deffe4ecf,
@@ -858,11 +851,6 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
->>>>>>> parent of 12edcf9a (soundtrack)
 =======
 >>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
     - target: {fileID: 5149438164528650212, guid: 2824a519e973b6446868cb4be367da77,
@@ -926,11 +914,6 @@ MonoBehaviour:
   timeToCap: 10
 <<<<<<< HEAD
   slider: {fileID: 738366914}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
->>>>>>> parent of 12edcf9a (soundtrack)
 =======
 >>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
 --- !u!58 &8089098567272957974

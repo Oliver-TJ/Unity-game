@@ -14,18 +14,9 @@ GameObject:
   - component: {fileID: 1515825282693869384}
   - component: {fileID: 6877967986525471082}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
   - component: {fileID: 2460407466325804491}
 >>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
-=======
-<<<<<<< HEAD
-  - component: {fileID: 2460407466325804491}
-=======
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
-=======
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
->>>>>>> parent of 12edcf9a (soundtrack)
   m_Layer: 0
   m_Name: Explosion
   m_TagString: Untagged
@@ -145,11 +136,7 @@ CircleCollider2D:
   serializedVersion: 2
   m_Radius: 0.3020501
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
-<<<<<<< HEAD
->>>>>>> parent of 12edcf9a (soundtrack)
 --- !u!114 &2460407466325804491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,11 +151,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   precision: 12
   king: {fileID: 0}
-<<<<<<< HEAD
 >>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
-=======
-=======
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
-=======
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
->>>>>>> parent of 12edcf9a (soundtrack)
