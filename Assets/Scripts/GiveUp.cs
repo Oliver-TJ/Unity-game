@@ -8,6 +8,5 @@ public class GiveUp : MonoBehaviour
     public void OnButtonPress()
     {
         SceneManager.LoadScene("MainMenu");
-        Time.timeScale = 1f;
     }
 }
