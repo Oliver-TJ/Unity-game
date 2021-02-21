@@ -24,7 +24,9 @@ public class trajectory : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("Collision detected"); 
+        Shootable s = other.gameObject.GetComponent<Shootable>();
+        if (s != null) 
+            s.takeDamage(60);
         Explode();
     }
 
