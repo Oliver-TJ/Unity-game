@@ -121,7 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!114 &738366914 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1215099148178124032, guid: 8edbae655d3920945978d30deffe4ecf,
@@ -134,8 +133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
 --- !u!1 &954203024
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,7 +193,7 @@ PrefabInstance:
     - target: {fileID: 8571127622724714084, guid: 704f72baccf0fe14d9df61809bb22e95,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -230.00879
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8571127622724714084, guid: 704f72baccf0fe14d9df61809bb22e95,
         type: 3}
@@ -441,7 +438,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1816804, y: 0.11603512}
   m_EdgeRadius: 0
-<<<<<<< HEAD
 --- !u!1 &2068355853
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,8 +648,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8edbae655d3920945978d30deffe4ecf, type: 3}
-=======
->>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
 --- !u!1001 &5149438164626337690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -661,6 +655,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 653329046654046241, guid: 2824a519e973b6446868cb4be367da77,
+        type: 3}
+      propertyPath: field of view
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 653329046654046241, guid: 2824a519e973b6446868cb4be367da77,
+        type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: aabf1248dde3482468b50db8f88b4d60, type: 2}
     - target: {fileID: 5149438164017073280, guid: 2824a519e973b6446868cb4be367da77,
         type: 3}
       propertyPath: m_Name
@@ -840,7 +844,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 5149438164104194262, guid: 2824a519e973b6446868cb4be367da77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -851,8 +854,6 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 1
       objectReference: {fileID: 0}
-=======
->>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
     - target: {fileID: 5149438164528650212, guid: 2824a519e973b6446868cb4be367da77,
         type: 3}
       propertyPath: maxCameraSpeed
@@ -862,6 +863,11 @@ PrefabInstance:
         type: 3}
       propertyPath: orthographic size
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8932815299899496975, guid: 2824a519e973b6446868cb4be367da77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2824a519e973b6446868cb4be367da77, type: 3}
@@ -912,10 +918,7 @@ MonoBehaviour:
   playerInRange: 0
   isCaptured: 0
   timeToCap: 10
-<<<<<<< HEAD
   slider: {fileID: 738366914}
-=======
->>>>>>> parent of f6f0b1f9 (Revert "Merge branch 'pr/5' into pr/6")
 --- !u!58 &8089098567272957974
 CircleCollider2D:
   m_ObjectHideFlags: 0
