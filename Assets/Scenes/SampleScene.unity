@@ -123,10 +123,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
 =======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
 --- !u!114 &738366914 stripped
@@ -859,9 +856,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
-=======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
 =======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
@@ -928,9 +922,6 @@ MonoBehaviour:
 =======
   slider: {fileID: 738366914}
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of d37cb4ec (Sound and animated character sprite)
-=======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
 =======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
