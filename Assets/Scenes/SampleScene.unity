@@ -122,7 +122,10 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
 --- !u!114 &738366914 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1215099148178124032, guid: 8edbae655d3920945978d30deffe4ecf,
@@ -852,6 +855,9 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
+=======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
     - target: {fileID: 5149438164528650212, guid: 2824a519e973b6446868cb4be367da77,
         type: 3}
@@ -915,6 +921,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
   slider: {fileID: 738366914}
+<<<<<<< HEAD
+>>>>>>> parent of d37cb4ec (Sound and animated character sprite)
+=======
 >>>>>>> parent of d37cb4ec (Sound and animated character sprite)
 --- !u!58 &8089098567272957974
 CircleCollider2D:
